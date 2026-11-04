@@ -1,0 +1,25 @@
+{
+  "adopted_scenes": [
+    "road_slab_05.tscn",
+    "road_slab_17.tscn",
+    "road_slab_32.tscn",
+    "road_slab_45.tscn",
+    "terrain_ground.tscn",
+    "tree_high.tscn",
+    "tree_mid.tscn",
+    "tree_low.tscn",
+    "grass.tscn",
+    "daisy_white.tscn",
+    "flower_yellow.tscn",
+    "flower_pink.tscn",
+    "portal.tscn",
+    "wet_road_slab.tscn"
+  ],
+  "base_assets": "../../atmosphere/assets/catalog.json",
+  "engraving": "height-map parallax and normal, not boolean-carved text geometry",
+  "new_meshy_credits": 0,
+  "source_catalog": "../../atmosphere/source_catalog.json",
+  "tree_lods": "three spatial geometry LODs; no whole-plant billboard",
+  "water": "opaque dielectric film integrated in stone; standalone slabs exported dry",
+  "water_reflection": "water_reflection.res"
+}

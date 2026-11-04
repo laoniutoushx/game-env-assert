@@ -1,0 +1,18 @@
+{
+  "extends_catalog": "../meshy_assets/catalog.json",
+  "round": "root-cause diagnosis and local quality repair",
+  "additional_meshy_credits": 0,
+  "selected": [
+    {"id":"fern_woodland", "scene":"fern_repaired.tscn", "model":"fern_repaired.glb", "triangles":219999, "source":"../meshy_plan_b/assets/fern/01a190a5-3f89-77c2-a12f-512d70b45526/asset_model_url.glb", "maps":["fern_repaired_normal.png","fern_repaired_ao.png"], "lod":"screen-space 140/110 pixel hysteresis in quality_round.gd"},
+    {"id":"shrub_flowers", "scene":"shrub_repaired.tscn", "model":"shrub_repaired.glb", "triangles":300000, "source":"../meshy_plan_b/assets/pilot_shrub/01a19080-9f31-765f-bef5-29843cbe99b8/asset_model_url.glb", "maps":["shrub_repaired_normal.png","shrub_repaired_ao.png"], "limitation":"source foliage remains overly homogeneous; flowers provided by separate geometry"},
+    {"id":"stone_plain", "scene":"stone_repaired.tscn", "model":"stone_plain_repaired.glb", "triangles":30000, "uv":"original UV retained", "source":"../meshy_plan_b/assets/stone_plain/01a190ba-2077-71e0-ac01-bccd8cf7804c/asset_model_url.glb", "normal_depth":0.45}
+  ],
+  "additional_local_geometry": [
+    {"id":"grass_blades", "scene":"grass_blades.tscn", "source":"../quality_round/plants.gd"},
+    {"id":"daisy_white", "scene":"daisy_white.tscn", "source":"../quality_round/plants.gd"},
+    {"id":"wildflower_yellow", "scene":"wildflower_yellow.tscn", "source":"../quality_round/plants.gd"},
+    {"id":"wildflower_pink", "scene":"wildflower_pink.tscn", "source":"../quality_round/plants.gd"}
+  ],
+  "supplements": ["../fab_candidates/03/with_tangents.glb","../fab_candidates/07/converted/bramble.glb"],
+  "not_selected": [{"model":"stone_plain_reuv.glb", "reason":"fresh unwrap did not improve visible result; fragmented islands and low used atlas area remained, retained only as diagnostic candidate"}]
+}

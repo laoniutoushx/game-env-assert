@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>RENDER V4 光影验收</title>
+<style>body{background:#151b1b;color:#e1e9e4;font:16px system-ui;max-width:1500px;margin:30px auto;padding:0 22px}p{line-height:1.7}.note{color:#e3c18c}.compare{position:relative}.compare img{width:100%;display:block}.compare #after{position:absolute;inset:0;clip-path:inset(0 50% 0 0)}img{max-width:100%}button{padding:10px 18px;margin:6px;cursor:pointer}input[type=range]{width:65%}section{margin:32px 0}a{color:#acd8ee}.stats{display:flex;gap:28px;flex-wrap:wrap;padding:18px;background:#26312d}</style>
+<h1>RENDER V4 · 光影迭代</h1>
+<p>重点：太阳与天空的冷暖关系、树冠阴影、接触暗部、真实遮挡体积散射、路径保护景深。水渍暂停。</p>
+<p class="note">已完成本轮运行与性能验收；尚未达到概念图最终美术一致性，不宣称 90%。</p>
+<div class="stats"><span>原生 2560×1440 / MSAA4</span><span>RTX 3060</span><span>P95：32.362 / 31.972 ms</span><span>220 个静态烘焙网格</span><span>14 张定帧 + 96 帧移动</span></div>
+<section><h2>相同模型与相机 · V3 / V4</h2><p>左侧覆盖区域为 V4，右侧为 V3。两图均关闭景深；本轮包含光照、材质受光与阴影的综合变化。</p>
+<input type="range" min="0" max="100" value="50" oninput="document.querySelector('#after').style.clipPath='inset(0 '+(100-this.value)+'% 0 0)'">
+<div class="compare"><img src="../model_v3/captures/clear_top.png"><img id="after" src="captures/clear_top.png"></div></section>
+<section><h2>景深与侧视</h2><p>景深随缩放及旋转更新，核心路径保留在焦内。固定截图对比及移动记录用于检查不同方向的稳定性。</p>
+<button onclick="document.querySelector('#still').src='captures/cinema_top.png'">主视角·景深</button><button onclick="document.querySelector('#still').src='captures/clear_top.png'">主视角·清晰</button><button onclick="document.querySelector('#still').src='captures/cinema_left.png'">左侧</button><button onclick="document.querySelector('#still').src='captures/clear_low_side.png'">低角度</button><img id="still" src="captures/cinema_top.png"></section>
+<section><h2>移动相机记录</h2><p>40–70°俯角、360°转向。此记录使用最终 V4 配置。</p><button onclick="playing=!playing">播放 / 暂停</button><button onclick="preset=preset==='clear_motion'?'final_motion':'clear_motion';setFrame(n)">切换景深</button><input id="slider" type="range" min="0" max="47" value="0" oninput="setFrame(+this.value)"><img id="motion" src="captures/clear_motion/000.png"></section>
+<section><h2>目标概念图</h2><p>剩余差距：植物受光与暗部层次、空气光束仍有雾团感，整体尚未达到参考图的细腻程度。</p><img src="reference.png"></section>
+<p><a href="README.md">实现与限制</a> · <a href="validation.json">验收结果</a> · <a href="launch.ps1">交互场景启动脚本</a></p>
+<script>let playing=false,n=0,preset='clear_motion';function setFrame(i){n=i;document.querySelector('#slider').value=n;document.querySelector('#motion').src='captures/'+preset+'/'+String(n).padStart(3,'0')+'.png'}setInterval(()=>{if(playing)setFrame((n+1)%48)},160)</script></html>

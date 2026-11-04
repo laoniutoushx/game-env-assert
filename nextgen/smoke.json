@@ -1,0 +1,16 @@
+{
+  "camera_pan_reset": true,
+  "lod_far": 0,
+  "lod_near": 24,
+  "preview_pixels": [
+    1421,
+    736
+  ],
+  "quality_pixels": [
+    2560,
+    1440
+  ],
+  "road_slabs": 52,
+  "road_tangents": true,
+  "root_uniform": true
+}

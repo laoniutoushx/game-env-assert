@@ -1,0 +1,35 @@
+{
+  "task_id": "01a19080-6ceb-7318-9be5-042fe9ac73b8",
+  "saved": [
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_model_url.glb",
+      "sha256": "efee1878dfc96f2868c0332f509fd4ecd59ac098588e493b555e820a92f25a79",
+      "bytes": 342430432
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_thumbnail_url.png",
+      "sha256": "ab92fe9728cc353ccd4f317e05f0980351723c64e97c72e0c35fd9358dd1698b",
+      "bytes": 230644
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_texture_urls_0_base_color.png",
+      "sha256": "43f391acab776e64390454e573dbd11f0267c16eb9de4bfac4ef14b30bd9ed82",
+      "bytes": 17417146
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_texture_urls_0_metallic.png",
+      "sha256": "5121e40702a7081e32eb6c547ed65b52541c17f054dad70bd762a67a4fcc4874",
+      "bytes": 55752
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_texture_urls_0_roughness.png",
+      "sha256": "a24c297d8f1179a3fa158aeb7d882b3a50718f54bb74481d4930b19ab407c81f",
+      "bytes": 1700030
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_tree\\01a19080-6ceb-7318-9be5-042fe9ac73b8\\asset_texture_urls_0_normal.png",
+      "sha256": "e4e56ff7aa41991c86207321c2248c91380f0948e756376b0778dbbd81f07ef2",
+      "bytes": 20694571
+    }
+  ]
+}

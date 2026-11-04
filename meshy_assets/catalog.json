@@ -1,0 +1,18 @@
+{
+  "status": "pilot assets, not final scene approval",
+  "source": "user concept reference and generated individual-object references",
+  "assets": [
+    {"id":"tree_evergreen", "scene":"tree_evergreen.tscn", "model":"pilot_tree.glb", "task":"01a19080-6ceb-7318-9be5-042fe9ac73b8", "purpose":"volumetric evergreen forest border", "nominal_scene_height_m":4.6, "runtime_triangle_target":250000},
+    {"id":"shrub_flowers", "scene":"shrub_flowers.tscn", "model":"pilot_shrub.glb", "task":"01a19080-9f31-765f-bef5-29843cbe99b8", "purpose":"mixed woodland shrub and flowers", "nominal_scene_width_m":1.2, "runtime_triangle_target":200000},
+    {"id":"stone_slab_inscribed", "scene":"stone_slab_inscribed.tscn", "model":"pilot_slab_v2.glb", "task":"01a1909c-4f85-751d-8714-2d4f78b5d54f", "purpose":"flat inscribed road tile", "nominal_scene_size_m":[0.9,0.14,1.1], "runtime_triangle_target":25000},
+    {"id":"ruin_column", "scene":"ruin_column.tscn", "model":"column.glb", "task":"01a190a5-5125-700f-9d4d-8715b6d656ba", "purpose":"weathered classical ruin column", "runtime_triangle_target":35000},
+    {"id":"stone_curved_edge", "scene":"stone_curved_edge.tscn", "model":"curb.glb", "task":"01a190a5-615d-721d-a136-e5df10fe47cf", "purpose":"curved pathway module; connection not yet validated", "runtime_triangle_target":35000},
+    {"id":"fern_woodland", "scene":"fern_woodland.tscn", "model":"fern.glb", "lod":"fern_lod1.glb", "task":"01a190a5-3f89-77c2-a12f-512d70b45526", "purpose":"woodland fern clump", "runtime_triangle_target":120000},
+    {"id":"meadow_flowers", "scene":"meadow_flowers.tscn", "model":"flowers.glb", "lod":"flowers_lod1.glb", "task":"01a190a5-71f7-7152-bdbd-a7a1005e4198", "purpose":"mixed low flowers and grass", "runtime_triangle_target":120000},
+    {"id":"tree_broadleaf", "scene":"tree_broadleaf.tscn", "model":"broadleaf_tree.glb", "task":"01a190a5-8384-7165-a941-2596782e62af", "purpose":"broadleaf forest border", "runtime_triangle_target":250000},
+    {"id":"stone_plain", "scene":"stone_plain.tscn", "model":"stone_plain.glb", "task":"01a190ba-2077-71e0-ac01-bccd8cf7804c", "purpose":"uninscribed paving tile", "runtime_triangle_target":20000},
+    {"id":"column_fragment", "scene":"column_fragment.tscn", "model":"rubble.glb", "task":"01a190ba-30c3-7456-97d6-81050b59843c", "purpose":"fallen column fragment", "runtime_triangle_target":25000},
+    {"id":"terracotta_pot", "scene":"terracotta_pot.tscn", "model":"pot.glb", "task":"01a190ba-5221-75f6-8d11-23f9809b1515", "purpose":"weathered open clay pot", "runtime_triangle_target":20000},
+    {"id":"woodland_grass", "scene":"woodland_grass.tscn", "model":"grass.glb", "lod":"grass_lod2.glb", "task":"01a190ba-415f-759f-9b6d-3054f65f184d", "purpose":"woodland grass clump", "runtime_triangle_target":100000}
+  ]
+}

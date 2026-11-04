@@ -1,0 +1,15 @@
+{
+  "draw_calls_last": 752.0,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "internal_scale": 1.0,
+  "msaa": 0,
+  "p50_ms": 14.505,
+  "p95_ms": 20.238,
+  "primitives_last": 9366562.0,
+  "profile": "fsr2",
+  "render_target_pixels": "(2560.0, 1440.0)",
+  "samples": 600,
+  "stage": "sampling",
+  "viewport": "(2560.0, 1440.0)",
+  "warmup_seconds": 6
+}

@@ -1,0 +1,242 @@
+{
+  "generator": "build_assets.py",
+  "seed": 73109,
+  "blender": "5.2.3 LTS",
+  "assets": [
+    {
+      "name": "fern_0_lod0",
+      "kind": "fern",
+      "lod": 0,
+      "triangles": 8206,
+      "vertices": 6853,
+      "geometry_only_silhouette": true,
+      "file": "fern_0_lod0.glb"
+    },
+    {
+      "name": "fern_0_lod1",
+      "kind": "fern",
+      "lod": 1,
+      "triangles": 3618,
+      "vertices": 3069,
+      "geometry_only_silhouette": true,
+      "file": "fern_0_lod1.glb"
+    },
+    {
+      "name": "fern_0_lod2",
+      "kind": "fern",
+      "lod": 2,
+      "triangles": 1834,
+      "vertices": 1526,
+      "geometry_only_silhouette": true,
+      "file": "fern_0_lod2.glb"
+    },
+    {
+      "name": "flowers_0_lod0",
+      "kind": "flowers",
+      "lod": 0,
+      "triangles": 1710,
+      "vertices": 1485,
+      "geometry_only_silhouette": true,
+      "file": "flowers_0_lod0.glb"
+    },
+    {
+      "name": "flowers_0_lod1",
+      "kind": "flowers",
+      "lod": 1,
+      "triangles": 924,
+      "vertices": 828,
+      "geometry_only_silhouette": true,
+      "file": "flowers_0_lod1.glb"
+    },
+    {
+      "name": "fern_1_lod0",
+      "kind": "fern",
+      "lod": 0,
+      "triangles": 8206,
+      "vertices": 6853,
+      "geometry_only_silhouette": true,
+      "file": "fern_1_lod0.glb"
+    },
+    {
+      "name": "fern_1_lod1",
+      "kind": "fern",
+      "lod": 1,
+      "triangles": 3618,
+      "vertices": 3069,
+      "geometry_only_silhouette": true,
+      "file": "fern_1_lod1.glb"
+    },
+    {
+      "name": "fern_1_lod2",
+      "kind": "fern",
+      "lod": 2,
+      "triangles": 1834,
+      "vertices": 1526,
+      "geometry_only_silhouette": true,
+      "file": "fern_1_lod2.glb"
+    },
+    {
+      "name": "flowers_1_lod0",
+      "kind": "flowers",
+      "lod": 0,
+      "triangles": 3762,
+      "vertices": 3159,
+      "geometry_only_silhouette": true,
+      "file": "flowers_1_lod0.glb"
+    },
+    {
+      "name": "flowers_1_lod1",
+      "kind": "flowers",
+      "lod": 1,
+      "triangles": 2028,
+      "vertices": 1746,
+      "geometry_only_silhouette": true,
+      "file": "flowers_1_lod1.glb"
+    },
+    {
+      "name": "slab_0",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 380,
+      "vertices": 192,
+      "geometry_only_silhouette": true,
+      "file": "slab_0.glb"
+    },
+    {
+      "name": "slab_1",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 380,
+      "vertices": 192,
+      "geometry_only_silhouette": true,
+      "file": "slab_1.glb"
+    },
+    {
+      "name": "slab_2",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 380,
+      "vertices": 192,
+      "geometry_only_silhouette": true,
+      "file": "slab_2.glb"
+    },
+    {
+      "name": "slab_3",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 568,
+      "vertices": 288,
+      "geometry_only_silhouette": true,
+      "file": "slab_3.glb"
+    },
+    {
+      "name": "slab_4",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 568,
+      "vertices": 288,
+      "geometry_only_silhouette": true,
+      "file": "slab_4.glb"
+    },
+    {
+      "name": "slab_5",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 20,
+      "vertices": 12,
+      "geometry_only_silhouette": true,
+      "file": "slab_5.glb"
+    },
+    {
+      "name": "slab_6",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 966,
+      "vertices": 486,
+      "geometry_only_silhouette": true,
+      "file": "slab_6.glb"
+    },
+    {
+      "name": "slab_7",
+      "kind": "stone",
+      "lod": 0,
+      "triangles": 348,
+      "vertices": 176,
+      "geometry_only_silhouette": true,
+      "file": "slab_7.glb"
+    },
+    {
+      "name": "rock_0_lod0",
+      "kind": "rock",
+      "lod": 0,
+      "triangles": 320,
+      "vertices": 162,
+      "geometry_only_silhouette": true,
+      "file": "rock_0_lod0.glb"
+    },
+    {
+      "name": "rock_0_lod1",
+      "kind": "rock",
+      "lod": 1,
+      "triangles": 80,
+      "vertices": 42,
+      "geometry_only_silhouette": true,
+      "file": "rock_0_lod1.glb"
+    },
+    {
+      "name": "rock_1_lod0",
+      "kind": "rock",
+      "lod": 0,
+      "triangles": 320,
+      "vertices": 162,
+      "geometry_only_silhouette": true,
+      "file": "rock_1_lod0.glb"
+    },
+    {
+      "name": "rock_1_lod1",
+      "kind": "rock",
+      "lod": 1,
+      "triangles": 80,
+      "vertices": 42,
+      "geometry_only_silhouette": true,
+      "file": "rock_1_lod1.glb"
+    },
+    {
+      "name": "fallen_column",
+      "kind": "ruin",
+      "lod": 0,
+      "triangles": 860,
+      "vertices": 432,
+      "geometry_only_silhouette": true,
+      "file": "fallen_column.glb"
+    },
+    {
+      "name": "hero_tree_lod0",
+      "kind": "tree",
+      "lod": 0,
+      "triangles": 18672,
+      "vertices": 17606,
+      "geometry_only_silhouette": true,
+      "file": "hero_tree_lod0.glb"
+    },
+    {
+      "name": "hero_tree_lod1",
+      "kind": "tree",
+      "lod": 1,
+      "triangles": 7358,
+      "vertices": 7302,
+      "geometry_only_silhouette": true,
+      "file": "hero_tree_lod1.glb"
+    },
+    {
+      "name": "hero_tree_lod2",
+      "kind": "tree",
+      "lod": 2,
+      "triangles": 3290,
+      "vertices": 3009,
+      "geometry_only_silhouette": true,
+      "file": "hero_tree_lod2.glb"
+    }
+  ],
+  "paid_generation": false
+}

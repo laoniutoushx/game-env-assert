@@ -1,0 +1,26 @@
+{
+  "bounces": 3,
+  "data": "res://afternoon_v2/assets/indirect_1793626252.lmbake",
+  "directional": true,
+  "look_version": 2,
+  "quality": 1,
+  "scene": "res://afternoon_v2/assets/baked_runtime_1793626274.tscn",
+  "source_sha256": {
+    "afternoon_v2/details.gd": "43e613714ba95e4e94be77e8b77e10b86294a9c9f5217402937f538e03185eca",
+    "afternoon_v2/foliage.gdshader": "bbe295daf22f2189418826312af93a7db4236090bc6ace71afb632a5799a0218",
+    "afternoon_v2/ground.gdshader": "38315d67615dc2464f9ff1fa82bb3b0cf94889a9bfd51a7e274b5c26311fa159",
+    "afternoon_v2/refine.gd": "cf31a45b739a3149852caeac6e70296edef5dee6128d63b6d99dad0d941cfe12",
+    "afternoon_v2/road.gdshader": "7978a9eccb7fbd9f3be266c66da1678c3a5686bb44afb64c8f7eb772030d2624",
+    "afternoon_v2/settings.json": "df079daed54e9eb5ed890b98113a63312f57800a6052180677d6f949402315b4",
+    "afternoon_v2/shaft_fog.gdshader": "6655754abe70aa1fde02fb62263b1b4a05047a8c1bf22bbc4f3442ffeb8250ee",
+    "afternoon_v2/sun_shaft.gdshader": "fcf8a3c494133b981163b66077a0e637e7b39e23a929c65030a1294ac7cc9743",
+    "afternoon_v2/textures/rune_0.png": "9c7ad4f2965e80483f5da7b194bf0cfd9bb5a4cbb78caea73feb222d63dcc137",
+    "afternoon_v2/textures/rune_1.png": "6412a59a06c3f3ce7566ffc41553640782581f6fbb105fd497eb90d2c743f012",
+    "afternoon_v2/textures/rune_2.png": "b6c0ed6a6c174717860562fe77cc8a2c5e49c3f13758c6a56731ffe5f89272ba",
+    "afternoon_v2/textures/rune_3.png": "9d569efa03c411cca94afe5ab7db2258d838e58a3f5528e5be8e25b86ac26ae5",
+    "afternoon_v2_scene.gd": "8e3b58aec00e13e11e5705c02fddfda7843ff18c3cb15de4d3fc42184a9bbf25"
+  },
+  "success": true,
+  "texel_scale": 0.5,
+  "users": 215
+}

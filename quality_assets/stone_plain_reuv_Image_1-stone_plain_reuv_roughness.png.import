@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://qv31qnb2jfws"
+path.s3tc="res://.godot/imported/stone_plain_reuv_Image_1-stone_plain_reuv_roughness.png-4d11771966a6b135e6cc17ec7a449d2e.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "0ce464aa220b7aac9df520c8fc37f5af"
+}
+
+[deps]
+
+source_file="res://quality_assets/stone_plain_reuv_Image_1-stone_plain_reuv_roughness.png"
+dest_files=["res://.godot/imported/stone_plain_reuv_Image_1-stone_plain_reuv_roughness.png-4d11771966a6b135e6cc17ec7a449d2e.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

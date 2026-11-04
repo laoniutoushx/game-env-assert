@@ -1,0 +1,1542 @@
+[
+  {
+    "center": "(6.9785, 0.055248, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_l57ce):<ShaderMaterial#-9223371772546511763>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_00"
+  },
+  {
+    "center": "(6.9785, 0.066193, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5h2ex):<ShaderMaterial#-9223371772512957305>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_00_-1"
+  },
+  {
+    "center": "(6.9785, 0.066193, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uftcw):<ShaderMaterial#-9223371772479402875>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_00_1"
+  },
+  {
+    "center": "(5.8395, 0.055247, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ikpa5):<ShaderMaterial#-9223371772445848445>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_01"
+  },
+  {
+    "center": "(5.8395, 0.066152, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_6blfq):<ShaderMaterial#-9223371772412294015>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_01_-1"
+  },
+  {
+    "center": "(5.8395, 0.066152, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_yahjq):<ShaderMaterial#-9223371772378739585>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_01_1"
+  },
+  {
+    "center": "(4.4455, 0.055247, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_lru05):<ShaderMaterial#-9223371772345185155>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_02"
+  },
+  {
+    "center": "(4.4455, 0.065886, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ho8gh):<ShaderMaterial#-9223371772311630725>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_02_-1"
+  },
+  {
+    "center": "(4.4455, 0.065886, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_i53sy):<ShaderMaterial#-9223371772278076295>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_02_1"
+  },
+  {
+    "center": "(3.1365, 0.055249, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_58kn1):<ShaderMaterial#-9223371772244521865>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_03"
+  },
+  {
+    "center": "(3.1365, 0.066234, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_6miwl):<ShaderMaterial#-9223371772210967435>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_03_-1"
+  },
+  {
+    "center": "(3.1365, 0.066234, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_pibbj):<ShaderMaterial#-9223371772177413005>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_03_1"
+  },
+  {
+    "center": "(1.88275, 0.055248, -4.080001)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_0cus7):<ShaderMaterial#-9223371772143858575>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_04"
+  },
+  {
+    "center": "(1.88275, 0.065999, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_l8x28):<ShaderMaterial#-9223371772110304098>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_04_-1"
+  },
+  {
+    "center": "(1.88275, 0.065999, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_28ajx):<ShaderMaterial#-9223371772076749668>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_04_1"
+  },
+  {
+    "center": "(0.68, 0.055066, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_se07i):<ShaderMaterial#-9223371772043195238>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_05"
+  },
+  {
+    "center": "(0.68, 0.065858, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_beyhj):<ShaderMaterial#-9223371772009640808>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_05_-1"
+  },
+  {
+    "center": "(0.68, 0.065858, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_op7tr):<ShaderMaterial#-9223371771976086378>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_05_1"
+  },
+  {
+    "center": "(-0.459, 0.05524, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_1sui2):<ShaderMaterial#-9223371771942531948>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_06"
+  },
+  {
+    "center": "(-0.459, 0.065527, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_fmlqa):<ShaderMaterial#-9223371771908977518>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_06_-1"
+  },
+  {
+    "center": "(-0.459, 0.065527, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rg6dx):<ShaderMaterial#-9223371771875423088>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_06_1"
+  },
+  {
+    "center": "(-1.853, 0.055247, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_hewvj):<ShaderMaterial#-9223371771841868658>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_07"
+  },
+  {
+    "center": "(-1.853, 0.066119, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_vloyg):<ShaderMaterial#-9223371771808314228>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_07_-1"
+  },
+  {
+    "center": "(-1.853, 0.066119, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_bk4vq):<ShaderMaterial#-9223371771774759798>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_07_1"
+  },
+  {
+    "center": "(-3.162, 0.055146, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_xcthq):<ShaderMaterial#-9223371771741205392>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_08"
+  },
+  {
+    "center": "(-3.162, 0.065941, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_p3pav):<ShaderMaterial#-9223371771707650911>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_08_-1"
+  },
+  {
+    "center": "(-3.162, 0.065941, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_cu6jl):<ShaderMaterial#-9223371771674096477>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_08_1"
+  },
+  {
+    "center": "(-4.41575, 0.054491, -4.080001)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_cvv8o):<ShaderMaterial#-9223371771640542043>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_09"
+  },
+  {
+    "center": "(-4.41575, 0.06513, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_nt0a6):<ShaderMaterial#-9223371771606987609>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_09_-1"
+  },
+  {
+    "center": "(-4.41575, 0.06513, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_cgtdj):<ShaderMaterial#-9223371771573433175>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_09_1"
+  },
+  {
+    "center": "(-5.6185, 0.055224, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_8flus):<ShaderMaterial#-9223371771539878741>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_10"
+  },
+  {
+    "center": "(-5.6185, 0.066025, -3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_b7ljr):<ShaderMaterial#-9223371771506324307>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_10_-1"
+  },
+  {
+    "center": "(-5.6185, 0.066025, -4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_l6f4k):<ShaderMaterial#-9223371771472769873>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_10_1"
+  },
+  {
+    "center": "(-6.665491, 0.055241, -4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4t6ho):<ShaderMaterial#-9223371771439215439>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_11"
+  },
+  {
+    "center": "(-6.66186, 0.06578, -3.318014)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_pr34m):<ShaderMaterial#-9223371771405661005>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_11_-1"
+  },
+  {
+    "center": "(-6.666629, 0.06578, -4.841987)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_wq16e):<ShaderMaterial#-9223371771372106571>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_11_1"
+  },
+  {
+    "center": "(-7.581082, 0.054855, -4.026013)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_clojr):<ShaderMaterial#-9223371771338552137>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_12"
+  },
+  {
+    "center": "(-7.392707, 0.065052, -3.270992)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7p8on):<ShaderMaterial#-9223371771304997703>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_12_-1"
+  },
+  {
+    "center": "(-7.615295, 0.065052, -4.732379)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5hmr1):<ShaderMaterial#-9223371771271443269>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_12_1"
+  },
+  {
+    "center": "(-8.092995, 0.055178, -3.755041)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_psgnk):<ShaderMaterial#-9223371771237888835>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_13"
+  },
+  {
+    "center": "(-7.721943, 0.065832, -3.077676)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7d2oi):<ShaderMaterial#-9223371771204334401>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_13_-1"
+  },
+  {
+    "center": "(-8.331583, 0.065832, -4.299737)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_hffc6):<ShaderMaterial#-9223371771170779967>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_13_1"
+  },
+  {
+    "center": "(-8.460356, 0.05525, -3.204592)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_tc1nc):<ShaderMaterial#-9223371771137225533>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_14"
+  },
+  {
+    "center": "(-7.969208, 0.066237, -2.708965)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_n7e7c):<ShaderMaterial#-9223371771103671099>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_14_-1"
+  },
+  {
+    "center": "(-8.86408, 0.066237, -3.507244)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4v4wv):<ShaderMaterial#-9223371771070116665>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_14_1"
+  },
+  {
+    "center": "(-8.624071, 0.055247, -2.437127)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_brsj1):<ShaderMaterial#-9223371771036562231>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_15"
+  },
+  {
+    "center": "(-8.087909, 0.065882, -2.237487)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5thjf):<ShaderMaterial#-9223371771003007797>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_15_-1"
+  },
+  {
+    "center": "(-9.134232, 0.065882, -2.463521)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rlxc8):<ShaderMaterial#-9223371770969453363>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_15_1"
+  },
+  {
+    "center": "(-8.602554, 0.05511, -1.409827)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_nso2s):<ShaderMaterial#-9223371770935898929>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_16"
+  },
+  {
+    "center": "(-8.070234, 0.065845, -1.713032)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5bupr):<ShaderMaterial#-9223371770902344495>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_16_-1"
+  },
+  {
+    "center": "(-9.091776, 0.065845, -1.324999)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_puk2h):<ShaderMaterial#-9223371770868790061>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_16_1"
+  },
+  {
+    "center": "(-8.381933, 0.055247, -0.709211)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_b0cc1):<ShaderMaterial#-9223371770835235627>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_17"
+  },
+  {
+    "center": "(-7.914464, 0.066157, -1.259243)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_omgv0):<ShaderMaterial#-9223371770801681193>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_17_-1"
+  },
+  {
+    "center": "(-8.74913, 0.066157, -0.339649)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4gkfd):<ShaderMaterial#-9223371770768126759>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_17_1"
+  },
+  {
+    "center": "(-7.970449, 0.055247, -0.224583)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_2nuoe):<ShaderMaterial#-9223371770734572325>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_18"
+  },
+  {
+    "center": "(-7.6416, 0.066179, -0.932011)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_laoah):<ShaderMaterial#-9223371770701017891>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_18_-1"
+  },
+  {
+    "center": "(-8.159192, 0.066179, 0.370487)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ya45):<ShaderMaterial#-9223371770667463457>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_18_1"
+  },
+  {
+    "center": "(-7.484717, 0.055249, -0.029769)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_nydcq):<ShaderMaterial#-9223371770633909023>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_19"
+  },
+  {
+    "center": "(-7.346006, 0.066123, -0.788063)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_a4r5j):<ShaderMaterial#-9223371770600354589>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_19_-1"
+  },
+  {
+    "center": "(-7.512305, 0.066123, 0.702484)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4f88q):<ShaderMaterial#-9223371770566800155>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_19_1"
+  },
+  {
+    "center": "(-6.707475, 0.05525, -0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_683x2):<ShaderMaterial#-9223371770533245721>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_20"
+  },
+  {
+    "center": "(-6.703968, 0.065913, -0.761987)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_170qi):<ShaderMaterial#-9223371770499691287>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_20_-1"
+  },
+  {
+    "center": "(-6.708594, 0.065913, 0.761987)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ucycv):<ShaderMaterial#-9223371770466136853>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_20_1"
+  },
+  {
+    "center": "(-5.567045, 0.055248, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_axe0f):<ShaderMaterial#-9223371770432582419>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_21"
+  },
+  {
+    "center": "(-5.567045, 0.066246, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_osfv1):<ShaderMaterial#-9223371770399027985>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_21_-1"
+  },
+  {
+    "center": "(-5.567045, 0.066246, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_nyigi):<ShaderMaterial#-9223371770365473551>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_21_1"
+  },
+  {
+    "center": "(-4.173045, 0.05525, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7mawq):<ShaderMaterial#-9223371770331919117>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_22"
+  },
+  {
+    "center": "(-4.173044, 0.066023, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_op5h6):<ShaderMaterial#-9223371770298364683>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_22_-1"
+  },
+  {
+    "center": "(-4.173044, 0.066023, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_6kauk):<ShaderMaterial#-9223371770264810249>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_22_1"
+  },
+  {
+    "center": "(-2.864044, 0.055248, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_3xljp):<ShaderMaterial#-9223371770231255815>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_23"
+  },
+  {
+    "center": "(-2.864044, 0.066244, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ijdh0):<ShaderMaterial#-9223371770197701381>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_23_-1"
+  },
+  {
+    "center": "(-2.864044, 0.066244, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_an5ro):<ShaderMaterial#-9223371770164146947>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_23_1"
+  },
+  {
+    "center": "(-1.610294, 0.055243, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_2nnpe):<ShaderMaterial#-9223371770130592513>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_24"
+  },
+  {
+    "center": "(-1.610294, 0.06558, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rcae2):<ShaderMaterial#-9223371770097038079>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_24_-1"
+  },
+  {
+    "center": "(-1.610294, 0.06558, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_3fggj):<ShaderMaterial#-9223371770063483645>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_24_1"
+  },
+  {
+    "center": "(-0.407544, 0.055247, -0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_c8u4b):<ShaderMaterial#-9223371770029929211>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_25"
+  },
+  {
+    "center": "(-0.407544, 0.066148, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_8nv2f):<ShaderMaterial#-9223371769996374777>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_25_-1"
+  },
+  {
+    "center": "(-0.407544, 0.066148, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_r848h):<ShaderMaterial#-9223371769962820343>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_25_1"
+  },
+  {
+    "center": "(0.731456, 0.055247, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_vpu2j):<ShaderMaterial#-9223371769929265909>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_26"
+  },
+  {
+    "center": "(0.731456, 0.06617, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_cwqq5):<ShaderMaterial#-9223371769895711475>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_26_-1"
+  },
+  {
+    "center": "(0.731456, 0.06617, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_v63c4):<ShaderMaterial#-9223371769862157041>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_26_1"
+  },
+  {
+    "center": "(2.125456, 0.055059, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_tspuy):<ShaderMaterial#-9223371769828602607>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_27"
+  },
+  {
+    "center": "(2.125456, 0.065824, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_vyeeh):<ShaderMaterial#-9223371769795048173>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_27_-1"
+  },
+  {
+    "center": "(2.125456, 0.065824, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5sd3a):<ShaderMaterial#-9223371769761493739>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_27_1"
+  },
+  {
+    "center": "(3.434456, 0.055134, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_6c08f):<ShaderMaterial#-9223371769727939305>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_28"
+  },
+  {
+    "center": "(3.434456, 0.065289, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7obii):<ShaderMaterial#-9223371769694384871>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_28_-1"
+  },
+  {
+    "center": "(3.434456, 0.065289, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_fix66):<ShaderMaterial#-9223371769660830437>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_28_1"
+  },
+  {
+    "center": "(4.688206, 0.055248, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4k6vl):<ShaderMaterial#-9223371769627276003>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_29"
+  },
+  {
+    "center": "(4.688206, 0.065913, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_egb0u):<ShaderMaterial#-9223371769593721569>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_29_-1"
+  },
+  {
+    "center": "(4.688206, 0.065913, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_8b6fn):<ShaderMaterial#-9223371769560167135>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_29_1"
+  },
+  {
+    "center": "(5.890956, 0.055143, -0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_2v8p4):<ShaderMaterial#-9223371769526612701>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_30"
+  },
+  {
+    "center": "(5.890956, 0.065972, -0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_lvh3h):<ShaderMaterial#-9223371769493058267>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_30_-1"
+  },
+  {
+    "center": "(5.890956, 0.065972, 0.762)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_sd2f2):<ShaderMaterial#-9223371769459503833>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_30_1"
+  },
+  {
+    "center": "(6.734009, 0.054463, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_od52h):<ShaderMaterial#-9223371769425949399>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_31"
+  },
+  {
+    "center": "(6.735162, 0.065121, -0.761986)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_sldvx):<ShaderMaterial#-9223371769392394965>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_31_-1"
+  },
+  {
+    "center": "(6.730251, 0.065121, 0.761986)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_wpuuv):<ShaderMaterial#-9223371769358840531>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_31_1"
+  },
+  {
+    "center": "(7.445571, 0.055225, 0.054058)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_xfpv4):<ShaderMaterial#-9223371769325286097>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_32"
+  },
+  {
+    "center": "(7.479938, 0.066118, -0.652169)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_p5ibk):<ShaderMaterial#-9223371769291731663>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_32_-1"
+  },
+  {
+    "center": "(7.256949, 0.066118, 0.809058)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gi4ro):<ShaderMaterial#-9223371769258177229>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_32_1"
+  },
+  {
+    "center": "(7.95736, 0.055248, 0.325322)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5oo2m):<ShaderMaterial#-9223371769224622795>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_33"
+  },
+  {
+    "center": "(8.19595, 0.065866, -0.219372)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_aq1mu):<ShaderMaterial#-9223371769191068361>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_33_-1"
+  },
+  {
+    "center": "(7.586308, 0.065866, 1.002686)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_bpei7):<ShaderMaterial#-9223371769157513927>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_33_1"
+  },
+  {
+    "center": "(8.324589, 0.055091, 0.875951)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_x3rmu):<ShaderMaterial#-9223371769123959493>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_34"
+  },
+  {
+    "center": "(8.728378, 0.065082, 0.573464)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_pv4rx):<ShaderMaterial#-9223371769090405059>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_34_-1"
+  },
+  {
+    "center": "(7.833397, 0.065082, 1.371357)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_spknq):<ShaderMaterial#-9223371769056850625>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_34_1"
+  },
+  {
+    "center": "(8.488114, 0.055181, 1.643834)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_83hxf):<ShaderMaterial#-9223371769023296191>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_35"
+  },
+  {
+    "center": "(8.998362, 0.065979, 1.617519)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rgkw4):<ShaderMaterial#-9223371768989741757>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_35_-1"
+  },
+  {
+    "center": "(7.951944, 0.065979, 1.842796)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_u0smv):<ShaderMaterial#-9223371768956187323>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_35_1"
+  },
+  {
+    "center": "(8.466479, 0.05525, 2.670756)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_falmb):<ShaderMaterial#-9223371768922632889>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_36"
+  },
+  {
+    "center": "(8.95559, 0.066206, 2.755983)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_a586e):<ShaderMaterial#-9223371768889078455>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_36_-1"
+  },
+  {
+    "center": "(7.934193, 0.066206, 2.367199)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_2lkrh):<ShaderMaterial#-9223371768855524021>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_36_1"
+  },
+  {
+    "center": "(8.245656, 0.055249, 3.371283)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_q35fl):<ShaderMaterial#-9223371768821969587>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_37"
+  },
+  {
+    "center": "(8.612856, 0.066102, 3.740849)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_1xdwd):<ShaderMaterial#-9223371768788415153>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_37_-1"
+  },
+  {
+    "center": "(7.778186, 0.066102, 2.821252)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rmyl3):<ShaderMaterial#-9223371768754860719>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_37_1"
+  },
+  {
+    "center": "(7.834085, 0.055214, 3.855672)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_nskg1):<ShaderMaterial#-9223371768721306285>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_38"
+  },
+  {
+    "center": "(8.022568, 0.065701, 4.45098)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4arip):<ShaderMaterial#-9223371768687751851>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_38_-1"
+  },
+  {
+    "center": "(7.505453, 0.065701, 3.148106)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ex4r):<ShaderMaterial#-9223371768654197417>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_38_1"
+  },
+  {
+    "center": "(7.348213, 0.055249, 4.050276)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_2obyq):<ShaderMaterial#-9223371768620642983>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_39"
+  },
+  {
+    "center": "(7.375648, 0.066207, 4.782647)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4qabb):<ShaderMaterial#-9223371768587088549>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_39_-1"
+  },
+  {
+    "center": "(7.209762, 0.066207, 3.29198)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_dm4gj):<ShaderMaterial#-9223371768553534115>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_39_1"
+  },
+  {
+    "center": "(6.570958, 0.055247, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_aqic6):<ShaderMaterial#-9223371768519979681>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_40"
+  },
+  {
+    "center": "(6.572062, 0.066023, 4.841989)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7p2km):<ShaderMaterial#-9223371768486425247>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_40_-1"
+  },
+  {
+    "center": "(6.567575, 0.066023, 3.318012)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_l7l1t):<ShaderMaterial#-9223371768452870813>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_40_1"
+  },
+  {
+    "center": "(5.430589, 0.055247, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_lvhgw):<ShaderMaterial#-9223371768419316379>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_41"
+  },
+  {
+    "center": "(5.430589, 0.066224, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4yqja):<ShaderMaterial#-9223371768385761945>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_41_-1"
+  },
+  {
+    "center": "(5.430589, 0.066224, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_m4d2l):<ShaderMaterial#-9223371768352207511>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_41_1"
+  },
+  {
+    "center": "(4.036589, 0.055249, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_1wpun):<ShaderMaterial#-9223371768318653077>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_42"
+  },
+  {
+    "center": "(4.036589, 0.065846, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_g3ix6):<ShaderMaterial#-9223371768285098643>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_42_-1"
+  },
+  {
+    "center": "(4.036589, 0.065846, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_08vl1):<ShaderMaterial#-9223371768251544209>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_42_1"
+  },
+  {
+    "center": "(2.727589, 0.055247, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_w8voe):<ShaderMaterial#-9223371768217989775>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_43"
+  },
+  {
+    "center": "(2.727589, 0.06617, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_6g1rc):<ShaderMaterial#-9223371768184435341>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_43_-1"
+  },
+  {
+    "center": "(2.727589, 0.06617, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_fxyqs):<ShaderMaterial#-9223371768150880907>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_43_1"
+  },
+  {
+    "center": "(1.473839, 0.05525, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_7oewb):<ShaderMaterial#-9223371768117326473>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_44"
+  },
+  {
+    "center": "(1.473839, 0.066175, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uafc8):<ShaderMaterial#-9223371768083772039>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_44_-1"
+  },
+  {
+    "center": "(1.473839, 0.066175, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_tex13):<ShaderMaterial#-9223371768050217605>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_44_1"
+  },
+  {
+    "center": "(0.271089, 0.055249, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_4wlj1):<ShaderMaterial#-9223371768016663171>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_45"
+  },
+  {
+    "center": "(0.271089, 0.066219, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_q8pjb):<ShaderMaterial#-9223371767983108737>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_45_-1"
+  },
+  {
+    "center": "(0.271089, 0.066219, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_vw47k):<ShaderMaterial#-9223371767949554303>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_45_1"
+  },
+  {
+    "center": "(-0.867911, 0.055149, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_r1ph4):<ShaderMaterial#-9223371767915999869>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_46"
+  },
+  {
+    "center": "(-0.867911, 0.065625, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gheut):<ShaderMaterial#-9223371767882445435>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_46_-1"
+  },
+  {
+    "center": "(-0.867911, 0.065625, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gnh2h):<ShaderMaterial#-9223371767848891001>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_46_1"
+  },
+  {
+    "center": "(-2.261911, 0.055249, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ypum3):<ShaderMaterial#-9223371767815336567>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_47"
+  },
+  {
+    "center": "(-2.261911, 0.065953, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_be5j8):<ShaderMaterial#-9223371767781782133>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_47_-1"
+  },
+  {
+    "center": "(-2.261911, 0.065953, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_tk60i):<ShaderMaterial#-9223371767748227699>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_47_1"
+  },
+  {
+    "center": "(-3.570911, 0.055247, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_1tdji):<ShaderMaterial#-9223371767714673265>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_48"
+  },
+  {
+    "center": "(-3.570911, 0.066232, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_8a0h2):<ShaderMaterial#-9223371767681118831>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_48_-1"
+  },
+  {
+    "center": "(-3.570911, 0.066232, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gjaeb):<ShaderMaterial#-9223371767647564397>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_48_1"
+  },
+  {
+    "center": "(-4.824661, 0.055052, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_xowj4):<ShaderMaterial#-9223371767614009963>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_49"
+  },
+  {
+    "center": "(-4.824661, 0.065714, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_cbi5e):<ShaderMaterial#-9223371767580455529>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_49_-1"
+  },
+  {
+    "center": "(-4.824661, 0.065714, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_3jlwp):<ShaderMaterial#-9223371767546901095>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_49_1"
+  },
+  {
+    "center": "(-6.027411, 0.054922, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gtyu5):<ShaderMaterial#-9223371767513346661>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_50"
+  },
+  {
+    "center": "(-6.027411, 0.065328, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_qeh7p):<ShaderMaterial#-9223371767479792227>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_50_-1"
+  },
+  {
+    "center": "(-6.027411, 0.065328, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rjtv5):<ShaderMaterial#-9223371767446237793>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_50_1"
+  },
+  {
+    "center": "(-7.072455, 0.055249, 4.08)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_n3hhy):<ShaderMaterial#-9223371767412683359>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/RoadSlab_51"
+  },
+  {
+    "center": "(-7.072456, 0.065798, 4.842)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_rayit):<ShaderMaterial#-9223371767379128925>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_51_-1"
+  },
+  {
+    "center": "(-7.072456, 0.065798, 3.318)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_ss4h2):<ShaderMaterial#-9223371767345574491>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/Curb_51_1"
+  },
+  {
+    "center": "(0.0, 0.079973, 0.0)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_gobcd):<ShaderMaterial#-9223371767278465623>",
+    "position": "(0.0, 0.0, 0.0)",
+    "source": "EnvironmentGeometry/TerrainGround"
+  },
+  {
+    "center": "(-9.994579, 1.756188, -0.901089)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(-9.994486, 1.755586, -0.900917)",
+    "source": "EnvironmentGeometry/@Node3D@9/column/Mesh_0"
+  },
+  {
+    "center": "(-9.428972, 1.364071, 2.370976)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(-9.428889, 1.363616, 2.371099)",
+    "source": "EnvironmentGeometry/@Node3D@10/column/Mesh_0"
+  },
+  {
+    "center": "(10.21743, 1.663129, 0.617797)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(10.21751, 1.6626, 0.617946)",
+    "source": "EnvironmentGeometry/@Node3D@11/column/Mesh_0"
+  },
+  {
+    "center": "(9.891926, 1.165769, 4.006345)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(9.891979, 1.165431, 4.006441)",
+    "source": "EnvironmentGeometry/@Node3D@12/column/Mesh_0"
+  },
+  {
+    "center": "(-5.95, 1.45983, -8.879999)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(-5.949858, 1.459368, -8.879766)",
+    "source": "EnvironmentGeometry/@Node3D@13/column/Mesh_0"
+  },
+  {
+    "center": "(6.958916, 1.239422, -8.577763)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_uniin):<ShaderMaterial#-9223371767228133973>",
+    "position": "(6.958991, 1.239021, -8.577655)",
+    "source": "EnvironmentGeometry/@Node3D@14/column/Mesh_0"
+  },
+  {
+    "center": "(8.925, 0.409306, 7.32)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(8.925, 0.409306, 7.32)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@19"
+  },
+  {
+    "center": "(8.3725, 0.41505, 7.32)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(8.3725, 0.41505, 7.32)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@20"
+  },
+  {
+    "center": "(9.4775, 0.375951, 7.32)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(9.4775, 0.375951, 7.32)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@21"
+  },
+  {
+    "center": "(2.71504, 0.221266, -6.228096)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(2.71504, 0.221266, -6.228096)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@22"
+  },
+  {
+    "center": "(8.507223, 0.059039, -8.840218)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(8.507223, 0.059039, -8.840218)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@23"
+  },
+  {
+    "center": "(-0.38795, 0.103988, 1.331663)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-0.38795, 0.103988, 1.331663)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@24"
+  },
+  {
+    "center": "(2.156332, 0.162706, -8.375971)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(2.156332, 0.162706, -8.375971)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@25"
+  },
+  {
+    "center": "(7.661073, 0.07117, -2.244374)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(7.661073, 0.07117, -2.244374)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@26"
+  },
+  {
+    "center": "(4.306581, 0.233535, -8.535261)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(4.306581, 0.233535, -8.535261)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@27"
+  },
+  {
+    "center": "(-5.567627, 0.147021, -7.640763)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-5.567627, 0.147021, -7.640763)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@28"
+  },
+  {
+    "center": "(-7.957376, 0.204894, 7.907486)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-7.957376, 0.204894, 7.907486)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@29"
+  },
+  {
+    "center": "(-10.93271, 0.084145, 1.971246)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.93271, 0.084145, 1.971246)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@30"
+  },
+  {
+    "center": "(-5.243634, 0.163215, -7.161702)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-5.243634, 0.163215, -7.161702)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@31"
+  },
+  {
+    "center": "(7.982771, 0.121554, -6.319527)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(7.982771, 0.121554, -6.319527)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@32"
+  },
+  {
+    "center": "(-10.20745, 0.099844, 2.322065)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.20745, 0.099844, 2.322065)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@33"
+  },
+  {
+    "center": "(-10.63363, 0.156076, -3.08768)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.63363, 0.156076, -3.08768)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@34"
+  },
+  {
+    "center": "(10.70634, 0.113936, -8.090136)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(10.70634, 0.113936, -8.090136)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@35"
+  },
+  {
+    "center": "(7.82, 0.279255, -5.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(7.82, 0.279255, -5.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@36"
+  },
+  {
+    "center": "(7.820001, 0.589255, -5.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(7.82, 0.589255, -5.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@37"
+  },
+  {
+    "center": "(7.2675, 1.424341, -5.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(7.2675, 1.424341, -5.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@38"
+  },
+  {
+    "center": "(7.225, 1.382843, -5.244)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_slwk3):<StandardMaterial3D#-9223371766657708596>",
+    "position": "(7.225, 1.382843, -5.244)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@39"
+  },
+  {
+    "center": "(8.372499, 1.452368, -5.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(8.372499, 1.452368, -5.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@40"
+  },
+  {
+    "center": "(8.33, 1.44888, -5.244)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_slwk3):<StandardMaterial3D#-9223371766657708596>",
+    "position": "(8.33, 1.44888, -5.244)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@41"
+  },
+  {
+    "center": "(7.82, 0.879255, -5.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(7.82, 0.879255, -5.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@42"
+  },
+  {
+    "center": "(6.953001, 0.7, -5.016)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(6.953001, 0.7, -5.016)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@43"
+  },
+  {
+    "center": "(7.0975, 0.86964, -6.024)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(7.0975, 0.86964, -6.024)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@44"
+  },
+  {
+    "center": "(8.686999, 0.795328, -5.016)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(8.686999, 0.795328, -5.016)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@45"
+  },
+  {
+    "center": "(8.5425, 0.845345, -6.024)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xpm35):<StandardMaterial3D#-9223371766708040247>",
+    "position": "(8.5425, 0.845345, -6.024)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@46"
+  },
+  {
+    "center": "(7.820001, 0.63, -4.704)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_slwk3):<StandardMaterial3D#-9223371766657708596>",
+    "position": "(7.82, 0.63, -4.704)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@47"
+  },
+  {
+    "center": "(-10.285, 0.284637, -4.2)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.285, 0.284637, -4.2)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@48"
+  },
+  {
+    "center": "(-11.05, 1.128558, -4.44)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.05, 1.128558, -4.44)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@49"
+  },
+  {
+    "center": "(-9.605, 1.054868, -4.44)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-9.605, 1.054868, -4.44)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@50"
+  },
+  {
+    "center": "(-10.3275, 1.938252, -4.44)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-10.3275, 1.938252, -4.44)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@51"
+  },
+  {
+    "center": "(-10.2, 0.16031, -3.06)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.2, 0.16031, -3.06)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@52"
+  },
+  {
+    "center": "(-10.2, 0.267969, -3.36)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.2, 0.267969, -3.36)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@53"
+  },
+  {
+    "center": "(-10.2, 0.374019, -3.66)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-10.2, 0.374019, -3.66)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@54"
+  },
+  {
+    "center": "(-11.33053, 0.396964, -4.92)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.33053, 0.396964, -4.92)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@55"
+  },
+  {
+    "center": "(-11.18306, 0.617602, -4.62)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.18306, 0.617602, -4.62)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@56"
+  },
+  {
+    "center": "(-10.98726, 0.833626, -4.32)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-10.98726, 0.833626, -4.32)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@57"
+  },
+  {
+    "center": "(-11.16338, 0.377791, -4.02)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.16338, 0.377791, -4.02)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@58"
+  },
+  {
+    "center": "(-11.08057, 0.59623, -3.72)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.08057, 0.59623, -3.72)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@59"
+  },
+  {
+    "center": "(-11.03414, 0.814883, -3.42)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.03414, 0.814883, -3.42)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@60"
+  },
+  {
+    "center": "(-10.97413, 0.341525, -3.12)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-10.97413, 0.341525, -3.12)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@61"
+  },
+  {
+    "center": "(-10.82473, 0.553601, -2.82)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-10.82473, 0.553601, -2.82)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@62"
+  },
+  {
+    "center": "(-11.2986, 0.789909, -2.52)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_mxbua):<StandardMaterial3D#-9223371767110693454>",
+    "position": "(-11.2986, 0.789909, -2.52)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@63"
+  },
+  {
+    "center": "(-1.53, 0.208632, -2.04)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(-1.53, 0.208632, -2.04)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@64"
+  },
+  {
+    "center": "(-1.53, 0.458632, -2.04)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xgggy):<StandardMaterial3D#-9223371766204723737>",
+    "position": "(-1.53, 0.458632, -2.04)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@65"
+  },
+  {
+    "center": "(0.68, 0.254675, -2.04)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_8lysv):<StandardMaterial3D#-9223371766993252935>",
+    "position": "(0.68, 0.254675, -2.04)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@66"
+  },
+  {
+    "center": "(0.68, 0.504675, -2.04)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::StandardMaterial3D_xgggy):<StandardMaterial3D#-9223371766204723737>",
+    "position": "(0.68, 0.504675, -2.04)",
+    "source": "EnvironmentGeometry/@MeshInstance3D@67"
+  },
+  {
+    "center": "(8.33, 0.44648, 7.68)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_h62ft):<ShaderMaterial#-9223371766137614869>",
+    "position": "(8.330321, 0.447101, 7.679409)",
+    "source": "EnvironmentGeometry/@Node3D@68/rubble/Mesh_0"
+  },
+  {
+    "center": "(-9.18, 0.372407, 2.88)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_sg63c):<ShaderMaterial#-9223371766104060435>",
+    "position": "(-9.179751, 0.372489, 2.879383)",
+    "source": "EnvironmentGeometry/@Node3D@69/pot/Mesh_0"
+  },
+  {
+    "center": "(8.925001, 0.262, 2.28)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_sg63c):<ShaderMaterial#-9223371766104060435>",
+    "position": "(8.925653, 0.262082, 2.280126)",
+    "source": "EnvironmentGeometry/@Node3D@70/pot/Mesh_0"
+  },
+  {
+    "center": "(-6.777815, 0.208214, -1.7)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ajjs):<ShaderMaterial#-9223371766053728784>",
+    "position": "(-6.8, 0.0, -1.7)",
+    "source": "EnvironmentGeometry/ModelV3_Rock_0"
+  },
+  {
+    "center": "(1.790809, 0.240298, -1.658436)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ajjs):<ShaderMaterial#-9223371766053728784>",
+    "position": "(1.8, 0.0, -1.65)",
+    "source": "EnvironmentGeometry/ModelV3_Rock_1"
+  },
+  {
+    "center": "(-3.397657, 0.257205, 1.727305)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ajjs):<ShaderMaterial#-9223371766053728784>",
+    "position": "(-3.4, 0.0, 1.7)",
+    "source": "EnvironmentGeometry/ModelV3_Rock_2"
+  },
+  {
+    "center": "(6.006817, 0.215003, 1.591161)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ajjs):<ShaderMaterial#-9223371766053728784>",
+    "position": "(6.0, 0.0, 1.6)",
+    "source": "EnvironmentGeometry/ModelV3_Rock_3"
+  },
+  {
+    "center": "(-10.1916, 0.25, -4.407089)",
+    "found": true,
+    "material": "(res://model_v3/assets/baked_runtime_1793703138.tscn::ShaderMaterial_5ajjs):<ShaderMaterial#-9223371766053728784>",
+    "position": "(-10.4, 0.25, -4.9)",
+    "source": "EnvironmentGeometry/ModelV3_FallenColumn"
+  }
+]

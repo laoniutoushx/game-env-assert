@@ -1,0 +1,29 @@
+# Godot generated/import cache
+.godot/
+**/__pycache__/
+*.py[cod]
+
+# Reproducible review output and logs
+**/captures/
+**/*_motion/
+*.log
+*.tmp
+/*.png
+/*.jpg
+/*.png.import
+/*.jpg.import
+
+# Local tools, environments, and downloaded tool source
+model_v3/tools/venv/
+model_v3/tools/mcp-for-blender/
+**/.venv/
+**/node_modules/
+
+# Local secrets and temporary archives
+.env
+.env.*
+!.env.example
+*.zip
+*.7z
+*.blend1
+*.blend2

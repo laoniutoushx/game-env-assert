@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "performance": [
+    {
+      "cut": "fog,ssil,gi,pollen,probe",
+      "draw_calls_last": 917.0,
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "internal_scale": 1.0,
+      "output": "(2560.0, 1440.0)",
+      "p50_ms": 23.91,
+      "p95_ms": 29.478,
+      "primitives_last": 12797729.0,
+      "projection": 0,
+      "render_cpu_p95_ms": 1.17700004577637,
+      "render_gpu_p95_ms": 28.4619998931885,
+      "samples": 600,
+      "settings": {
+        "cut": "fog,ssil,gi,pollen,probe",
+        "internal_scale": 1.0,
+        "new_meshy_credits": 0.0,
+        "probe_resolution": 128.0,
+        "ssr_steps": 24.0,
+        "target_p95_ms": 33.3
+      },
+      "warmup_orbit_frames": 120,
+      "warmup_seconds": 6
+    },
+    {
+      "cut": "fog,ssil,gi,pollen,probe",
+      "draw_calls_last": 917.0,
+      "gpu": "NVIDIA GeForce RTX 3060",
+      "internal_scale": 1.0,
+      "output": "(2560.0, 1440.0)",
+      "p50_ms": 24.19,
+      "p95_ms": 29.786,
+      "primitives_last": 12872730.0,
+      "projection": 0,
+      "render_cpu_p95_ms": 1.16299998760223,
+      "render_gpu_p95_ms": 28.7870006561279,
+      "samples": 600,
+      "settings": {
+        "cut": "fog,ssil,gi,pollen,probe",
+        "internal_scale": 1.0,
+        "new_meshy_credits": 0.0,
+        "probe_resolution": 128.0,
+        "ssr_steps": 24.0,
+        "target_p95_ms": 33.3
+      },
+      "warmup_orbit_frames": 120,
+      "warmup_seconds": 6
+    }
+  ],
+  "time": "20261101_185905",
+  "round": "Perf",
+  "logs": [
+    "H:\\game-workflow\\work\\environment_ruins\\radiance\\review_20261101_185905_1.log",
+    "H:\\game-workflow\\work\\environment_ruins\\radiance\\review_20261101_185905_2.log"
+  ]
+}

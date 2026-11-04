@@ -1,0 +1,22 @@
+{
+  "top": {
+    "foliage_on_road": 0.002843143813480539,
+    "limit": 0.01,
+    "passed": true
+  },
+  "left": {
+    "foliage_on_road": 0.01701400565315786,
+    "limit": 0.03,
+    "passed": true
+  },
+  "side": {
+    "foliage_on_road": 0.02060626960575233,
+    "limit": 0.03,
+    "passed": true
+  },
+  "low_side": {
+    "foliage_on_road": 0.0479684571590226,
+    "limit": 0.05,
+    "passed": true
+  }
+}

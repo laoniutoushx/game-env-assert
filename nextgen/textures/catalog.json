@@ -1,0 +1,458 @@
+{
+  "source": "https://ambientcg.com/view?id=Tiles130",
+  "license": "CC0",
+  "source_archive": "Tiles130_12K-PNG.zip",
+  "sha256": "915ecac2a1a53b397ec40921cac0a663ab47a30b19615b0a9f6cea97cb8edeb2",
+  "no_upscaling": true,
+  "outputs": [
+    {
+      "path": "slab_0_Color.png",
+      "pixels": [
+        1200,
+        1230
+      ],
+      "source_rectangle": [
+        120,
+        90,
+        1320,
+        1320
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_1_Color.png",
+      "pixels": [
+        1080,
+        1230
+      ],
+      "source_rectangle": [
+        5010,
+        90,
+        6090,
+        1320
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_2_Color.png",
+      "pixels": [
+        1200,
+        1170
+      ],
+      "source_rectangle": [
+        9420,
+        90,
+        10620,
+        1260
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_3_Color.png",
+      "pixels": [
+        1200,
+        1350
+      ],
+      "source_rectangle": [
+        150,
+        3210,
+        1350,
+        4560
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_4_Color.png",
+      "pixels": [
+        1050,
+        1140
+      ],
+      "source_rectangle": [
+        1620,
+        3360,
+        2670,
+        4500
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_5_Color.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        5100,
+        3210,
+        6300,
+        4470
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_6_Color.png",
+      "pixels": [
+        1140,
+        1230
+      ],
+      "source_rectangle": [
+        6660,
+        3270,
+        7800,
+        4500
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_7_Color.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        10680,
+        3210,
+        11880,
+        4470
+      ],
+      "channel": "Color"
+    },
+    {
+      "path": "slab_0_NormalGL.png",
+      "pixels": [
+        1200,
+        1230
+      ],
+      "source_rectangle": [
+        120,
+        90,
+        1320,
+        1320
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_1_NormalGL.png",
+      "pixels": [
+        1080,
+        1230
+      ],
+      "source_rectangle": [
+        5010,
+        90,
+        6090,
+        1320
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_2_NormalGL.png",
+      "pixels": [
+        1200,
+        1170
+      ],
+      "source_rectangle": [
+        9420,
+        90,
+        10620,
+        1260
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_3_NormalGL.png",
+      "pixels": [
+        1200,
+        1350
+      ],
+      "source_rectangle": [
+        150,
+        3210,
+        1350,
+        4560
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_4_NormalGL.png",
+      "pixels": [
+        1050,
+        1140
+      ],
+      "source_rectangle": [
+        1620,
+        3360,
+        2670,
+        4500
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_5_NormalGL.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        5100,
+        3210,
+        6300,
+        4470
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_6_NormalGL.png",
+      "pixels": [
+        1140,
+        1230
+      ],
+      "source_rectangle": [
+        6660,
+        3270,
+        7800,
+        4500
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_7_NormalGL.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        10680,
+        3210,
+        11880,
+        4470
+      ],
+      "channel": "NormalGL"
+    },
+    {
+      "path": "slab_0_Roughness.png",
+      "pixels": [
+        1200,
+        1230
+      ],
+      "source_rectangle": [
+        120,
+        90,
+        1320,
+        1320
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_1_Roughness.png",
+      "pixels": [
+        1080,
+        1230
+      ],
+      "source_rectangle": [
+        5010,
+        90,
+        6090,
+        1320
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_2_Roughness.png",
+      "pixels": [
+        1200,
+        1170
+      ],
+      "source_rectangle": [
+        9420,
+        90,
+        10620,
+        1260
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_3_Roughness.png",
+      "pixels": [
+        1200,
+        1350
+      ],
+      "source_rectangle": [
+        150,
+        3210,
+        1350,
+        4560
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_4_Roughness.png",
+      "pixels": [
+        1050,
+        1140
+      ],
+      "source_rectangle": [
+        1620,
+        3360,
+        2670,
+        4500
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_5_Roughness.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        5100,
+        3210,
+        6300,
+        4470
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_6_Roughness.png",
+      "pixels": [
+        1140,
+        1230
+      ],
+      "source_rectangle": [
+        6660,
+        3270,
+        7800,
+        4500
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_7_Roughness.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        10680,
+        3210,
+        11880,
+        4470
+      ],
+      "channel": "Roughness"
+    },
+    {
+      "path": "slab_0_Displacement.png",
+      "pixels": [
+        1200,
+        1230
+      ],
+      "source_rectangle": [
+        120,
+        90,
+        1320,
+        1320
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_1_Displacement.png",
+      "pixels": [
+        1080,
+        1230
+      ],
+      "source_rectangle": [
+        5010,
+        90,
+        6090,
+        1320
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_2_Displacement.png",
+      "pixels": [
+        1200,
+        1170
+      ],
+      "source_rectangle": [
+        9420,
+        90,
+        10620,
+        1260
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_3_Displacement.png",
+      "pixels": [
+        1200,
+        1350
+      ],
+      "source_rectangle": [
+        150,
+        3210,
+        1350,
+        4560
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_4_Displacement.png",
+      "pixels": [
+        1050,
+        1140
+      ],
+      "source_rectangle": [
+        1620,
+        3360,
+        2670,
+        4500
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_5_Displacement.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        5100,
+        3210,
+        6300,
+        4470
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_6_Displacement.png",
+      "pixels": [
+        1140,
+        1230
+      ],
+      "source_rectangle": [
+        6660,
+        3270,
+        7800,
+        4500
+      ],
+      "channel": "Displacement"
+    },
+    {
+      "path": "slab_7_Displacement.png",
+      "pixels": [
+        1200,
+        1260
+      ],
+      "source_rectangle": [
+        10680,
+        3210,
+        11880,
+        4470
+      ],
+      "channel": "Displacement"
+    }
+  ],
+  "new_meshy_credits": 0
+}

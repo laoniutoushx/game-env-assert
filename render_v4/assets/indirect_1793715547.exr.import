@@ -1,0 +1,29 @@
+[remap]
+
+importer="2d_array_texture"
+type="CompressedTexture2DArray"
+uid="uid://b0yrayv0e52d5"
+path.bptc="res://.godot/imported/indirect_1793715547.exr-6e52f0966e3ad69061f37ce5f45442c4.bptc.ctexarray"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://render_v4/assets/indirect_1793715547.exr"
+dest_files=["res://.godot/imported/indirect_1793715547.exr-6e52f0966e3ad69061f37ce5f45442c4.bptc.ctexarray"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/channel_pack=1
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=1
+slices/vertical=24

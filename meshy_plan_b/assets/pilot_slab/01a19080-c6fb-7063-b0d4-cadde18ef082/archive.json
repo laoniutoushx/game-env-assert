@@ -1,0 +1,40 @@
+{
+  "task_id": "01a19080-c6fb-7063-b0d4-cadde18ef082",
+  "saved": [
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_model_url.glb",
+      "sha256": "95cb82292753bcd4f1af1eadcb9cf7b19d6ac2911c8d98c10100e748a62e5732",
+      "bytes": 45944112
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_model_urls_glb.glb",
+      "sha256": "95cb82292753bcd4f1af1eadcb9cf7b19d6ac2911c8d98c10100e748a62e5732",
+      "bytes": 45944112
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_thumbnail_url.png",
+      "sha256": "0c39f30d1aa02935b9188dafa46c5f8e5a74ca068c38009b806bb70adc944d38",
+      "bytes": 57988
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_texture_urls_0_base_color.png",
+      "sha256": "85e7ad1bdca70e2dd9033e4243fa7184f693dbf3559a423394f649a2ed899c59",
+      "bytes": 30713444
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_texture_urls_0_metallic.png",
+      "sha256": "c54a3ed181642da8d8a77eaaba872227ae1ba64c5a3ad19921fb151d3a150b57",
+      "bytes": 19652
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_texture_urls_0_roughness.png",
+      "sha256": "18ef76def5d9aad6a639f8c617dac9cb306f3b2ff16365669b622b9696695f7f",
+      "bytes": 1387660
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_slab\\01a19080-c6fb-7063-b0d4-cadde18ef082\\asset_texture_urls_0_normal.png",
+      "sha256": "5558fe7fa1d03ea6c120a5fcb4622a03990b7a1963ed8010bf7eb866e4c39c89",
+      "bytes": 29695892
+    }
+  ]
+}

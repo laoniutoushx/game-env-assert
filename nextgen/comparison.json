@@ -1,0 +1,62 @@
+{
+  "msaa": {
+    "draw_calls_last": 752.0,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "internal_scale": 1.0,
+    "msaa": 2,
+    "p50_ms": 16.304,
+    "p95_ms": 21.985,
+    "primitives_last": 9366562.0,
+    "profile": "msaa",
+    "render_target_pixels": "(2560.0, 1440.0)",
+    "samples": 600,
+    "stage": "sampling",
+    "viewport": "(2560.0, 1440.0)",
+    "warmup_seconds": 6
+  },
+  "fsr2": {
+    "draw_calls_last": 752.0,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "internal_scale": 1.0,
+    "msaa": 0,
+    "p50_ms": 14.505,
+    "p95_ms": 20.238,
+    "primitives_last": 9366562.0,
+    "profile": "fsr2",
+    "render_target_pixels": "(2560.0, 1440.0)",
+    "samples": 600,
+    "stage": "sampling",
+    "viewport": "(2560.0, 1440.0)",
+    "warmup_seconds": 6
+  },
+  "ssaa": {
+    "draw_calls_last": 752.0,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "internal_scale": 1.25,
+    "msaa": 2,
+    "p50_ms": 20.204,
+    "p95_ms": 26.444,
+    "primitives_last": 9366562.0,
+    "profile": "ssaa",
+    "render_target_pixels": "(2560.0, 1440.0)",
+    "samples": 600,
+    "stage": "sampling",
+    "viewport": "(2560.0, 1440.0)",
+    "warmup_seconds": 6
+  },
+  "final": {
+    "draw_calls_last": 675.0,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "internal_scale": 1.25,
+    "msaa": 2,
+    "p50_ms": 24.339,
+    "p95_ms": 27.667,
+    "primitives_last": 9339985.0,
+    "profile": "ssaa",
+    "render_target_pixels": "(2560.0, 1440.0)",
+    "samples": 600,
+    "stage": "final",
+    "viewport": "(2560.0, 1440.0)",
+    "warmup_seconds": 6
+  }
+}

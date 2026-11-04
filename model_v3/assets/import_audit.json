@@ -1,0 +1,184 @@
+[
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_0_lod0",
+    "scene": "fern_0_lod0.tscn",
+    "vertices": 6853
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_0_lod1",
+    "scene": "fern_0_lod1.tscn",
+    "vertices": 3069
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_0_lod2",
+    "scene": "fern_0_lod2.tscn",
+    "vertices": 1526
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "flowers_0_lod0",
+    "scene": "flowers_0_lod0.tscn",
+    "vertices": 1485
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "flowers_0_lod1",
+    "scene": "flowers_0_lod1.tscn",
+    "vertices": 828
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_1_lod0",
+    "scene": "fern_1_lod0.tscn",
+    "vertices": 6853
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_1_lod1",
+    "scene": "fern_1_lod1.tscn",
+    "vertices": 3069
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "fern_1_lod2",
+    "scene": "fern_1_lod2.tscn",
+    "vertices": 1526
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "flowers_1_lod0",
+    "scene": "flowers_1_lod0.tscn",
+    "vertices": 3159
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "flowers_1_lod1",
+    "scene": "flowers_1_lod1.tscn",
+    "vertices": 1746
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_0",
+    "scene": "slab_0.tscn",
+    "vertices": 768
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_1",
+    "scene": "slab_1.tscn",
+    "vertices": 768
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_2",
+    "scene": "slab_2.tscn",
+    "vertices": 768
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_3",
+    "scene": "slab_3.tscn",
+    "vertices": 1152
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_4",
+    "scene": "slab_4.tscn",
+    "vertices": 1152
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_5",
+    "scene": "slab_5.tscn",
+    "vertices": 36
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_6",
+    "scene": "slab_6.tscn",
+    "vertices": 1661
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "slab_7",
+    "scene": "slab_7.tscn",
+    "vertices": 702
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "rock_0_lod0",
+    "scene": "rock_0_lod0.tscn",
+    "vertices": 287
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "rock_0_lod1",
+    "scene": "rock_0_lod1.tscn",
+    "vertices": 88
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "rock_1_lod0",
+    "scene": "rock_1_lod0.tscn",
+    "vertices": 311
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "rock_1_lod1",
+    "scene": "rock_1_lod1.tscn",
+    "vertices": 75
+  },
+  {
+    "has_color": true,
+    "has_uv2": true,
+    "name": "fallen_column",
+    "scene": "fallen_column.tscn",
+    "vertices": 600
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "hero_tree_lod0",
+    "scene": "hero_tree_lod0.tscn",
+    "vertices": 17606
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "hero_tree_lod1",
+    "scene": "hero_tree_lod1.tscn",
+    "vertices": 7302
+  },
+  {
+    "has_color": true,
+    "has_uv2": false,
+    "name": "hero_tree_lod2",
+    "scene": "hero_tree_lod2.tscn",
+    "vertices": 3009
+  }
+]

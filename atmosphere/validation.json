@@ -1,0 +1,57 @@
+{
+  "Final_logs": 9,
+  "Smoke_logs": 2,
+  "Slice_logs": 4,
+  "Coverage_logs": 2,
+  "final_benchmark": {
+    "cut": "fog,ssil,gi",
+    "draw_calls_last": 910.0,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "internal_scale": 1.0,
+    "output": "(2560.0, 1440.0)",
+    "p50_ms": 27.044,
+    "p95_ms": 32.118,
+    "primitives_last": 13149926.0,
+    "projection": 0,
+    "samples": 600,
+    "warmup_orbit_frames": 120,
+    "warmup_seconds": 6
+  },
+  "coverage": {
+    "perimeter_plant_coverage": 0.7044046675179522,
+    "middle_belts_plant_coverage": 0.6656815389360965,
+    "road_plant_occlusion": 0.04711965533238103,
+    "method": "Alpha-preserving unshaded category pass, peripheral 15% horizontal / 18% vertical bands; middle 20%-80% x,25%-75% y; vegetation vs exposed ground only. Props and road excluded from coverage denominator.",
+    "targets": {
+      "perimeter": [
+        0.7,
+        0.85
+      ],
+      "middle_belts": [
+        0.65,
+        0.8
+      ],
+      "max_road_occlusion": 0.1
+    }
+  },
+  "final_motion_frames": 48,
+  "frozen_motion_frames": 48,
+  "rendered_assets": [
+    "road_slab_05.tscn",
+    "road_slab_17.tscn",
+    "road_slab_32.tscn",
+    "road_slab_45.tscn",
+    "terrain_ground.tscn",
+    "tree_high.tscn",
+    "tree_mid.tscn",
+    "tree_low.tscn",
+    "grass.tscn",
+    "daisy_white.tscn",
+    "flower_yellow.tscn",
+    "flower_pink.tscn"
+  ],
+  "tree_geometry_uv_tangents": true,
+  "shared_4k_compressed_mipmaps": true,
+  "review_links": true,
+  "success": true
+}

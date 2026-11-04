@@ -1,0 +1,29 @@
+[remap]
+
+importer="2d_array_texture"
+type="CompressedTexture2DArray"
+uid="uid://bspbxuvqfld62"
+path.bptc="res://.godot/imported/indirect_1793625381.exr-7e989ef23ac3bd5e3c13512f857115ec.bptc.ctexarray"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://afternoon_v2/assets/indirect_1793625381.exr"
+dest_files=["res://.godot/imported/indirect_1793625381.exr-7e989ef23ac3bd5e3c13512f857115ec.bptc.ctexarray"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/channel_pack=1
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=1
+slices/vertical=24

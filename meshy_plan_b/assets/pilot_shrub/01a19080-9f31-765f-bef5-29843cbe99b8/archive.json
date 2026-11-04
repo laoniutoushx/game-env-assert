@@ -1,0 +1,35 @@
+{
+  "task_id": "01a19080-9f31-765f-bef5-29843cbe99b8",
+  "saved": [
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_model_url.glb",
+      "sha256": "c360487ffffd942b430a1db6f2cb125ba80a5d027c4b7b941de862fe9783b9ab",
+      "bytes": 258233208
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_thumbnail_url.png",
+      "sha256": "b7568f42deca584160586ec92a382306cb6a141404d740a3138777d87bdcd10a",
+      "bytes": 132099
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_texture_urls_0_base_color.png",
+      "sha256": "c328346a90f6998845068ea5906a239daf111d45a3ba37f5bb883fa52350ef00",
+      "bytes": 20316201
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_texture_urls_0_metallic.png",
+      "sha256": "211bb8c98881c9fd4b8a0aef4350c1e873ba9f8697bd272ce5947e5b43c18069",
+      "bytes": 38323
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_texture_urls_0_roughness.png",
+      "sha256": "bd415f11cfc077cdbb4bb5d3d6cd86cd4d63c72296793994c056bb77f45e3e16",
+      "bytes": 1739740
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\pilot_shrub\\01a19080-9f31-765f-bef5-29843cbe99b8\\asset_texture_urls_0_normal.png",
+      "sha256": "5f88c8d0a1c458e50bb7b34eedf75bd230c06710a8a0efe64c001749092a2c3c",
+      "bytes": 18759163
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sampling_msaa": {
+    "mean_neighbor_difference": 0.059508713972695096,
+    "note": "Diagnostic ROI variation, not a universal image quality score"
+  },
+  "probe_color": {
+    "mean_neighbor_difference": 0.06030180721763396,
+    "note": "Diagnostic ROI variation, not a universal image quality score"
+  },
+  "probe_normals": {
+    "mean_neighbor_difference": 0.05880616514036371,
+    "note": "Diagnostic ROI variation, not a universal image quality score"
+  },
+  "probe_ao": {
+    "mean_neighbor_difference": 0.05951917898009253,
+    "note": "Diagnostic ROI variation, not a universal image quality score"
+  },
+  "probe_shadows": {
+    "mean_neighbor_difference": 0.055796123377717846,
+    "note": "Diagnostic ROI variation, not a universal image quality score"
+  }
+}

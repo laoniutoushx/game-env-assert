@@ -1,0 +1,54 @@
+{
+  "version": "RENDER V5 candidate",
+  "baseline": "RENDER V4 accepted and locked",
+  "baseline_files_verified_unchanged": 2082,
+  "default_scene": "res://render_v4_live.tscn",
+  "candidate_scene": "res://render_v5.tscn",
+  "incremental_visual_changes": [
+    "foliage backlight response",
+    "tighter contact shading",
+    "height-distributed continuous air and far-scene fog sample allocation"
+  ],
+  "output": [
+    2560,
+    1440
+  ],
+  "fixed_views": 14,
+  "motion_frames": 96,
+  "paired_baseline_p95_ms": 30.297,
+  "candidate_p95_ms": [
+    30.111,
+    30.328
+  ],
+  "candidate_gpu_p95_ms": [
+    29.3110008239746,
+    29.4580001831055
+  ],
+  "baseline_draw_calls_last": 986.0,
+  "candidate_draw_calls_last": [
+    986.0,
+    986.0
+  ],
+  "new_models": 0,
+  "new_textures": 0,
+  "paid_credits": 0,
+  "water_changes": false,
+  "baseline_bake_reused": true,
+  "f9_restore": {
+    "camera_unchanged": true,
+    "candidate_difference_mean_abs_8bit": 0.560420283564815,
+    "f9_baseline_restore": true,
+    "final_variant": "all",
+    "restored_mean_abs_8bit": 0.0880443431712963,
+    "wind_toggle": true
+  },
+  "source_sha256": {
+    "render_v5_scene.gd": "41c8fccc2117815e93624a9c067460e19b41c403100453791b8658c2e9bfe5d5",
+    "render_v5.tscn": "5819317f48ec8fe62216daf92b5bde352dc8f1ce051d9f8143aac56e785e28ba",
+    "render_v5/audit.gd": "3198d3877c99a3b8e0a816253fa5c2035d2eb528e06905de59ea9f22baa74f77",
+    "render_v5/toggle_audit.gd": "6a522fb25ac5a956b1b46a4cbeddedf31e56cf6fdd9755d0bd363d141f47a33b",
+    "render_v5/foliage.gdshader": "d7cc3d9504b49b1f9d28c65970ec2f62e220b843f622a46cba30c5e6c7d4f825",
+    "render_v5/forest_air.gdshader": "7236ee4e3fab84046725c33db259a4fb7af384efabda248fc50124e0acce3565",
+    "render_v5/model_foliage.gdshader": "058105f49c28b7f2be8d5fd83b5ce4c66d78002c222046b35f8fbfd8d72cafaa"
+  }
+}

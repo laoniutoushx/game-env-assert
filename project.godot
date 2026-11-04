@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="古迹环境场景验收"
+run/main_scene="res://render_v4_live.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=2560
+window/size/viewport_height=1440
+window/stretch/mode="viewport"
+
+[dotnet]
+
+project/assembly_name="古迹环境场景验收"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/afternoon_bake/plugin.cfg", "res://addons/afternoon_v2_bake/plugin.cfg", "res://addons/model_v3_bake/plugin.cfg", "res://addons/render_v4_bake/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
+
+[rendering]
+
+renderer/rendering_method.mobile="gl_compatibility"
+reflections/reflection_atlas/reflection_size=128
+textures/default_filters/anisotropic_filtering_level=3

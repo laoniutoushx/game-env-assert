@@ -1,0 +1,35 @@
+{
+  "task_id": "01a190ba-415f-759f-9b6d-3054f65f184d",
+  "saved": [
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_model_url.glb",
+      "sha256": "97e5d9843df2b9ccf18e76e92d8dd4a18b04f162e7b57ba0a9d1aba3f54587c8",
+      "bytes": 260632924
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_thumbnail_url.png",
+      "sha256": "85fa9483990cd99c5046e7684fb0dd218de2498b53a0a895e462ee7ba8931924",
+      "bytes": 127158
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_texture_urls_0_base_color.png",
+      "sha256": "62d139d9bb61a7c833e55855b7ccbf0b8c0aad05b9edbe0a7e3b4fe16e3b4789",
+      "bytes": 22402653
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_texture_urls_0_metallic.png",
+      "sha256": "3dc7beacc596f3d5a8b71dc370ec1bf6cfc3d8de43e96b78e052829893b57a54",
+      "bytes": 67461
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_texture_urls_0_roughness.png",
+      "sha256": "fbcc18e8f84ee10e28e69be6cc6cd0fd4edbb76827401e9e9b82b873e9a0a4fb",
+      "bytes": 1982059
+    },
+    {
+      "file": "H:\\game-workflow\\work\\environment_ruins\\meshy_plan_b\\assets\\grass\\01a190ba-415f-759f-9b6d-3054f65f184d\\asset_texture_urls_0_normal.png",
+      "sha256": "370a5590ff8ccc8adcd4238b8bfe14400543aff1fbe46d100ee181523faa099c",
+      "bytes": 21586380
+    }
+  ]
+}

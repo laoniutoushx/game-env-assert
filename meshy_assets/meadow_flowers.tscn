@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://meshy_assets/flowers.glb" id="1"]
+
+[node name="MeadowFlowers" instance=ExtResource("1")]

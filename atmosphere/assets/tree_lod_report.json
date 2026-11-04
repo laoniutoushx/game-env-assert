@@ -1,0 +1,10 @@
+{
+  "source_triangles": 2062487,
+  "lods": {
+    "high": 259999,
+    "mid": 80000,
+    "low": 42885
+  },
+  "textures": "4K, alpha restored from verified separate source",
+  "whole_plant_billboards": false
+}

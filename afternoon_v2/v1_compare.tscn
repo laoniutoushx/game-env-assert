@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://afternoon_v2/v1_compare.gd" id="1"]
+
+[node name="FrozenV1Comparison" type="Node3D"]
+script = ExtResource("1")

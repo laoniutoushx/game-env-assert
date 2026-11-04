@@ -1,0 +1,21 @@
+# Preserve source bytes: accepted lighting caches SHA-256 their source inputs.
+* -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.res filter=lfs diff=lfs merge=lfs -text
+*.scn filter=lfs diff=lfs merge=lfs -text
+*.lmbake filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+# Generated scenes embed large mesh/lightmap buffers.
+**/assets/*.tscn filter=lfs diff=lfs merge=lfs -text
+model_v3/scenes/*.tscn filter=lfs diff=lfs merge=lfs -text
+quality_assets/*.tscn filter=lfs diff=lfs merge=lfs -text

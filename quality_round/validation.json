@@ -1,0 +1,18 @@
+{
+  "main_scene": "res://quality_round.tscn",
+  "renderer": "Forward+",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "actual_render_pixels": [1421, 736],
+  "msaa_samples": 4,
+  "orbit_frames": 600,
+  "warmup_seconds": 6,
+  "p50_ms": 16.67,
+  "p95_ms": 17.371,
+  "standalone_assets_passed": 7,
+  "asset_gpu_log": "reviews_20261031_200339_1.log",
+  "scene_gpu_logs": "reviews_20261031_200045_1.log through _5.log",
+  "smoke": "camera, root scale, near/far LOD, independent tints, slab tangents and winding passed; headless system certificate warning retained",
+  "new_meshy_credits": 0,
+  "total_meshy_credits_used": 390,
+  "visual_90_percent_accepted": false
+}
