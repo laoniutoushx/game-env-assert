@@ -1,0 +1,83 @@
+{
+  "version": "RENDER V7 candidate",
+  "parent_commit": "ba38227",
+  "default_scene": "res://render_v4_live.tscn",
+  "tracked_baselines_unchanged": true,
+  "canopy_strength": 0.25,
+  "tree_lod_leaf_meshes": 45,
+  "new_models": 0,
+  "new_textures": 0,
+  "shadow_geometry_changed": false,
+  "sun_and_air_unchanged": true,
+  "disabled_canopy_opening_code_removed": true,
+  "fixed_views": 14,
+  "motion_frames": 96,
+  "baseline_p95_ms": 33.798,
+  "candidate_p95_ms": [
+    33.194,
+    33.175
+  ],
+  "baseline_gpu_p95_ms": 33.2360000610352,
+  "candidate_gpu_p95_ms": [
+    32.2389984130859,
+    32.576000213623
+  ],
+  "baseline_draw_calls": 986.0,
+  "candidate_draw_calls": [
+    986.0,
+    986.0
+  ],
+  "previous_attempts": [
+    {
+      "attempt": 1,
+      "shader": "before removal of disabled canopy-opening code",
+      "baseline_p95_ms": 33.383,
+      "baseline_gpu_p95_ms": 32.6580009460449,
+      "candidate_p95_ms": [
+        33.538,
+        33.996
+      ],
+      "candidate_gpu_p95_ms": [
+        32.757999420166,
+        33.2350006103516
+      ],
+      "absolute_budget_pass": false
+    },
+    {
+      "attempt": 2,
+      "shader": "before removal of disabled canopy-opening code",
+      "baseline_p95_ms": 33.286,
+      "baseline_gpu_p95_ms": 32.4210014343262,
+      "candidate_p95_ms": [
+        33.597,
+        33.364
+      ],
+      "candidate_gpu_p95_ms": [
+        32.8040008544922,
+        32.5610008239746
+      ],
+      "absolute_budget_pass": false
+    }
+  ],
+  "f9": {
+    "camera_unchanged": true,
+    "candidate_difference_mean_abs_8bit": 0.0376066984953704,
+    "f9_baseline_restore": true,
+    "final_variant": true,
+    "restored_mean_abs_8bit": 0.0376247829861111,
+    "wind_toggle": true
+  },
+  "source_sha256": {
+    "render_v7_scene.gd": "baa78845e189e26d0299027b3b918f7b2b2fdbd4bbd4cef2bd2b13388d06abec",
+    "render_v7.tscn": "99174d41a36e1feb3d278f84db5a0b8a2a86502c9ef3dae02aebadc45974ff78",
+    "render_v7/audit.gd": "fdbe755436d148d461d210b500938142838c75447f578899d8e487a3979dab96",
+    "render_v7/toggle_audit.gd": "87fd50a73ea1bef57ee36617200bc731ae0541a49fb4e1de3975812b8e645fdc",
+    "render_v7/foliage.gdshader": "930e9a9cff334c216bf25af99929276f5f1caada13b0283ba08ff7bac2657cca"
+  },
+  "performance_absolute_budget_pass": true,
+  "performance_margin_ms": [
+    0.10599999999999454,
+    0.125
+  ],
+  "performance_note": "Small remaining margin; prior over-budget attempts retained. Concurrent Godot editor observed; timing differences do not establish a stable speedup."
+}
