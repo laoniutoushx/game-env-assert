@@ -1,0 +1,71 @@
+{
+  "version": "RENDER V9 candidate",
+  "parent_commit": "36bba45",
+  "tracked_baselines_unchanged": true,
+  "default_scene": "res://render_v4_live.tscn",
+  "changes": [
+    "shared runtime mipmaps for 2 previously unmipped foliage textures; normal mip renormalization",
+    "leaf-only normal variance roughness limiting, 0.60 floor, 15% backlight gain",
+    "0.3 degree sun with original Medium filter, 4096 32-bit atlas and safe bias",
+    "8% plant LOD hysteresis with baseline-matched initialization"
+  ],
+  "continuous_frames": 4800,
+  "fixed_views": 14,
+  "sparse_motion_frames": 96,
+  "temporal_pan": {
+    "temporal_reduction": 0.30173101129466207,
+    "whole_roi_temporal_reduction": 0.04575361677367373,
+    "baseline_shadow_fraction": 0.076904296875,
+    "shadow_fraction": 0.0799560546875,
+    "shadow_fraction_relative_change": 0.03968253968253968,
+    "mean_luminance_relative_change": 0.0011745082447305322
+  },
+  "baseline_p95_ms": 31.875,
+  "candidate_p95_ms": [
+    29.883,
+    29.898
+  ],
+  "baseline_gpu_p95_ms": 31.0380001068115,
+  "candidate_gpu_p95_ms": [
+    29.007999420166,
+    29.1770000457764
+  ],
+  "candidate_draw_calls": [
+    986.0,
+    986.0
+  ],
+  "f9": {
+    "camera_unchanged": true,
+    "candidate_difference_mean_abs_8bit": 3.88977502893519,
+    "f9_baseline_restore": true,
+    "final_variant": "combined",
+    "lod_hysteresis": true,
+    "mipmaps": true,
+    "restored_mean_abs_8bit": 0.0385109230324074,
+    "wind_toggle": true
+  },
+  "rejected_high_filter_trials": {
+    "baseline": 31.31,
+    "p95_ms": [
+      34.106,
+      33.48
+    ],
+    "reason": "Exceeded both total-frame and incremental GPU budgets"
+  },
+  "rejected_lod_initialization": "First candidate captured builder LOD0 instead of matching V8; retained under bad_lod_combined_*; excluded from acceptance.",
+  "rejected_045": "0.45-degree candidate passed the short diagnostic but improved the long 600-frame pan only 20.5%; retained as rejected045_combined_*.",
+  "metric_limits": "Fixed plant-shadow mask: diagnostic no-plant-shadow minus V8 temporal mean >5/255, 1555 pixels on registered road plane. Not a whole-scene perceptual or concept-similarity score. Videos fixed-step 30Hz; performance measured separately without capture.",
+  "source_textures_modified": false,
+  "source_models_modified": false,
+  "water_changes": false,
+  "paid_credits": 0,
+  "source_sha256": {
+    "render_v9_scene.gd": "629b98dab49c054e5a6aae8b0813a9cb273f2e8547fee47a0dd32bb7789f5c34",
+    "render_v9.tscn": "d5b0f6cc03bc108adeae27958acc3c3b571f9311b008a5675ec52eaf59d18d4d",
+    "render_v9/audit.gd": "2de26677f41dac30e23cab0e8a1f77378d50b956baf9961492b9367272b906e5",
+    "render_v9/continuous.gd": "dab8afd47a0345f5c0345f75d9b87b0ccb3485b85bb4268654d087a9abb52562",
+    "render_v9/toggle_audit.gd": "338b5fa51899d1a190682c5bd10741bd508f03924361028a3928e95664d01d05",
+    "render_v9/foliage.gdshader": "019dfd7301870d46a9436a218eb9561a4852ced6b6e2f84112b32ec71dfbd609",
+    "render_v9/model_foliage.gdshader": "f2d4f7c4108cc795883f73ed9d0aa75095d4a608b082bf8eeb15eec9cd12d2a7"
+  }
+}
