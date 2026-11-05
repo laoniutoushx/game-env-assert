@@ -1,0 +1,50 @@
+{
+  "version": "RENDER V6 candidate",
+  "baseline": "V5 all / default locked V4 unchanged",
+  "tracked_baseline_unchanged": true,
+  "fixed_views": 14,
+  "motion_frames": 96,
+  "normal_strength": 0.2,
+  "backface_rule": 1,
+  "tangent_surfaces_verified": 10,
+  "shadow_proxy_upgrades": 2,
+  "source_ao_strength": 0.5,
+  "diagnostic_image_mad_8bit": {
+    "off_material_ao": 0.060352647569444445,
+    "off_ssao": 0.4102459490740741,
+    "off_ssil": 0.7295926468460648,
+    "off_shadows": 28.002710774739583
+  },
+  "baseline_p95_ms": 30.985,
+  "baseline_gpu_p95_ms": 30.3810005187988,
+  "candidate_p95_ms": [
+    31.976,
+    31.549
+  ],
+  "candidate_gpu_p95_ms": [
+    31.0340003967285,
+    30.6189994812012
+  ],
+  "f9": {
+    "camera_unchanged": true,
+    "candidate_difference_mean_abs_8bit": 4.13661024305556,
+    "f9_baseline_restore": true,
+    "final_variant": "combined",
+    "restored_mean_abs_8bit": 0.023193359375,
+    "wind_toggle": true
+  },
+  "source_sha256": {
+    "render_v6_scene.gd": "088b6dbce93db6094e7a01d92a2da0163e68db349a24b045e89f61dd1c018117",
+    "render_v6.tscn": "ee8035eee0907269d978649162220ea3c63359dcf39dd1818de1a1fc5c45e849",
+    "render_v6/audit.gd": "895a45e533f04a505017cdf6c4d6990d41046fc16f066c0e6bf5c5e0ae4c64d9",
+    "render_v6/normal_fixture.gd": "e21dce52c1a1b09b49101489010098bff6abeaf6de13b1a79db1ba3a7c558612",
+    "render_v6/probe.gd": "b98fecb7cb08b09fff8fc6ef275253b030fbcb1b71f0ccb91eb052b4a9a8f9cc",
+    "render_v6/toggle_audit.gd": "1c5cbae308124e4396c39b65e3d507ba5d62adfd0d4b3ca12f0e98f999fcb9c6",
+    "render_v6/foliage.gdshader": "20b38481d1d31cf675512fdf10330df943b3befddcef60f53a0eab0c18f753e2",
+    "render_v6/model_foliage.gdshader": "3600ba86eb6bce03404a319ff61007858f11dcd03ee3e89e843487439d9a4b3c"
+  },
+  "new_models": 0,
+  "new_textures": 0,
+  "water_changes": false,
+  "paid_credits": 0
+}
