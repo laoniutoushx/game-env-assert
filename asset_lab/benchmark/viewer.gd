@@ -16,7 +16,9 @@ var auto_lod=false
 var wind=false
 var gray=false
 var quarter=false
+var sbs_mode=false
 var tree:Node3D
+var sbs_trees:Array[Node3D]=[]
 var panel:PanelContainer
 var status:Label
 var trees_option:OptionButton
@@ -58,6 +60,7 @@ func _ready():
   add_child(audit)
   audit.call_deferred("run",self)
 
+
 func option(box:VBoxContainer,items:Array,selected:int,callback:Callable)->OptionButton:
  var control=OptionButton.new()
  control.focus_mode=Control.FOCUS_NONE
@@ -76,22 +79,41 @@ func build_ui():
  styles_option=option(box,STYLES,1,func(i):style_index=i;refresh())
  lights_option=option(box,LIGHTS,0,func(i):light_index=i;apply_lighting())
  cameras_option=option(box,CAMERAS,0,func(i):camera_index=i;apply_camera())
- lod_option=option(box,["LOD0 7144 tris","LOD1 3778 tris","LOD2 1010 tris","Auto LOD 14m / 28m"],0,func(i):auto_lod=i==3;if not auto_lod:lod_index=i;refresh())
- for item in [["轻风（F5）",func(on):wind=on;set_wind(tree)],["灰模检查（G）",func(on):gray=on;refresh()],["1/4宽高检查（F8）",func(on):quarter=on;get_viewport().scaling_3d_scale=0.25 if on else 1.0]]:
+ lod_option=option(box,["LOD0 6690 tris","LOD1 3472 tris","LOD2 875 tris","Auto LOD 14m / 28m"],0,func(i):auto_lod=i==3;if not auto_lod:lod_index=i;refresh())
+ for item in [["轻风（F5）",func(on):wind=on;set_wind(tree);for t in sbs_trees:set_wind(t)],["灰模检查（G）",func(on):gray=on;refresh()],["1/4宽高检查（F8）",func(on):quarter=on;get_viewport().scaling_3d_scale=0.25 if on else 1.0],["三风格同屏对比（C）",func(on):sbs_mode=on;refresh();apply_camera()]]:
   var check=CheckButton.new();check.focus_mode=Control.FOCUS_NONE;check.text=item[0];check.toggled.connect(item[1]);box.add_child(check);checks.append(check)
  var help=Label.new()
- help.text="1–5 原树 / B 新标杆 / F1–F3 风格\n右键+WASD，Q/E升降，Shift快，Ctrl慢\nL 换光 / Tab 换机位 / Home 初始视角"
+ help.text="1–5 原树 / B 新标杆 / F1–F3 风格 / C 同屏三风格\n右键+WASD，Q/E升降，Shift快，Ctrl慢\nL 换光 / Tab 换机位 / Home 初始视角"
  box.add_child(help)
 
 func refresh():
  if is_instance_valid(tree):
-  remove_child(tree);tree.queue_free()
- var path="res://asset_lab/benchmark/tree_style_%d_lod_%d.tscn"%[style_index,lod_index] if tree_index<0 else "res://asset_lab/styles/tree_%d_style_%d.tscn"%[tree_index,style_index]
- tree=load(path).instantiate()
- add_child(tree)
- if gray:apply_gray(tree)
- set_wind(tree)
- status.text=("新标杆" if tree_index<0 else ORIGINALS[tree_index])+" | "+STYLES[style_index]+(" | LOD%d"%lod_index if tree_index<0 else " | 原版参考")
+  remove_child(tree);tree.free()
+ for st in sbs_trees:
+  if is_instance_valid(st):
+   remove_child(st);st.free()
+ sbs_trees.clear()
+
+ if sbs_mode:
+  var offsets=[-4.4, 0.0, 4.4]
+  for s in 3:
+   var p="res://asset_lab/benchmark/tree_style_%d_lod_%d.tscn"%[s,lod_index] if tree_index<0 else "res://asset_lab/styles/tree_%d_style_%d.tscn"%[tree_index,s]
+   var inst=load(p).instantiate()
+   inst.position=Vector3(offsets[s],0,0)
+   add_child(inst)
+   if gray:apply_gray(inst)
+   set_wind(inst)
+   if s==1:
+    tree=inst
+   else:
+    sbs_trees.append(inst)
+ else:
+  var path="res://asset_lab/benchmark/tree_style_%d_lod_%d.tscn"%[style_index,lod_index] if tree_index<0 else "res://asset_lab/styles/tree_%d_style_%d.tscn"%[tree_index,style_index]
+  tree=load(path).instantiate()
+  add_child(tree)
+  if gray:apply_gray(tree)
+  set_wind(tree)
+ status.text=("新标杆" if tree_index<0 else ORIGINALS[tree_index])+" | "+("①/②/③ 同屏对比" if sbs_mode else STYLES[style_index])+(" | LOD%d"%lod_index if tree_index<0 else " | 改进母材质")
  lod_option.disabled=tree_index>=0
  trees_option.selected=tree_index+1
  styles_option.selected=style_index
@@ -118,7 +140,8 @@ func apply_lighting():
  lights_option.selected=light_index
 
 func apply_camera():
- $Camera3D.position=camera_positions[camera_index]
+ var sbs_pos=[Vector3(0,4.8,10.8),Vector3(0,10.8,9.2),Vector3(0,3.8,7.2)]
+ $Camera3D.position=sbs_pos[camera_index] if sbs_mode else camera_positions[camera_index]
  $Camera3D.look_at(camera_targets[camera_index])
  cameras_option.selected=camera_index
  if $Camera3D.has_method("set_reset_pose"):$Camera3D.set_reset_pose()
@@ -140,13 +163,15 @@ func _unhandled_input(event):
  if key>=KEY_1 and key<=KEY_5:tree_index=key-KEY_1;refresh()
  elif key==KEY_B:tree_index=-1;refresh()
  elif key>=KEY_F1 and key<=KEY_F3:style_index=key-KEY_F1;refresh()
+ elif key==KEY_C:sbs_mode=not sbs_mode;refresh();apply_camera()
  elif key==KEY_L:light_index=(light_index+1)%3;apply_lighting()
  elif key==KEY_TAB:camera_index=(camera_index+1)%3;apply_camera()
  elif key==KEY_G:gray=not gray;refresh()
- elif key==KEY_F5:wind=not wind;set_wind(tree)
+ elif key==KEY_F5:wind=not wind;set_wind(tree);for t in sbs_trees:set_wind(t)
  elif key==KEY_F8:
   quarter=not quarter;get_viewport().scaling_3d_scale=0.25 if quarter else 1.0
- if checks.size()==3:
+ if checks.size()==4:
   checks[0].set_pressed_no_signal(wind)
   checks[1].set_pressed_no_signal(gray)
   checks[2].set_pressed_no_signal(quarter)
+  checks[3].set_pressed_no_signal(sbs_mode)
