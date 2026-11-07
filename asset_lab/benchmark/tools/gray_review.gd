@@ -1,6 +1,7 @@
 extends Node3D
 func _ready():
  $Camera3D.look_at(Vector3(0,2.05,0))
+ $Camera3D.set_reset_pose()
  get_viewport().msaa_3d = Viewport.MSAA_4X
  if "--audit" in OS.get_cmdline_user_args():
   await get_tree().process_frame

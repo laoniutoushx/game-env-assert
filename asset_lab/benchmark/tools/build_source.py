@@ -39,7 +39,7 @@ for v in trunk.data.vertices:
 for face in trunk.data.polygons:face.use_smooth=True
 for c in list(trunk.users_collection): c.objects.unlink(trunk)
 collection.objects.link(trunk)
-trunk['source'] = 'Poly Haven tree_small_02 mid: trunk 984 + branches 864 tris'
+trunk['source'] = 'Poly Haven tree_small_02 mid: trunk 984 tris reused; old branch cards removed'
 
 def plain(name, color):
     m=bpy.data.materials.new(name); m.diffuse_color=(*color,1)
@@ -58,9 +58,14 @@ scene.collection.children.link(canopy)
 modules=bpy.data.collections.new('91_Leaf_Modules_NO_EXPORT')
 scene.collection.children.link(modules)
 
-outline=[(0,-.25),(.07,-.16),(.12,-.01),(.075,.16),(0,.28),(-.075,.16),(-.12,-.01),(-.07,-.16)]
-prototype=[Vector((0,0,.035))]+[Vector((x,y,.012*math.cos(y*9))) for x,y in outline]
-faces=[(0,1+i,1+(i+1)%8) for i in range(8)]
+outline=[(0,-.25)]
+for j in range(1,8):
+    t=j/8;outline.append((.125*math.sin(math.pi*t)**.8,-.25+.53*t))
+outline.append((0,.28))
+for j in range(7,0,-1):
+    t=j/8;outline.append((-.125*math.sin(math.pi*t)**.8,-.25+.53*t))
+prototype=[Vector((0,0,.055))]+[Vector((x,y,.018*math.cos(y*9))) for x,y in outline]
+faces=[(0,1+i,1+(i+1)%16) for i in range(16)]
 uvs=[(.5,.48)]+[(x/.26+.5,(y+.26)/.55) for x,y in outline]
 for variant in range(4):
     me=bpy.data.meshes.new('Leaf_Module_%02d'%variant)
@@ -88,13 +93,14 @@ for main, p in enumerate(forms):
         center=guide_center+Vector((math.cos(a)*.48,math.sin(a)*.46, [.05,.27,-.16,.18,-.05,.3][sub]))
         vs=[]; fs=[]; loop_uvs=[]; colors=[]; ns=[]
         group_tint=rng.uniform(.22,.78)
-        # Three-dimensional sprays, each containing sixteen individually curved leaves.
-        for leaf in range(24):
+        # Rounded leaf edges need sixteen triangles; twelve leaves per clump
+        # preserve the same crown budget as the earlier 24 x 8-triangle draft.
+        for leaf in range(12):
             theta=leaf*2.399963+main*.3
-            radius=.08+.46*math.sqrt((leaf+.5)/24)
+            radius=.07+.37*math.sqrt((leaf+.5)/12)
             off=Vector((math.cos(theta)*radius,math.sin(theta)*radius,rng.uniform(-.20,.22)))
             rot=Euler((rng.uniform(-.65,.65),rng.uniform(-.65,.65),theta-math.pi/2),'XYZ').to_matrix()
-            scale=rng.uniform(.56,.85)
+            scale=rng.uniform(.85,1.20)
             start=len(vs)
             for vi,v in enumerate(prototype):
                 local=rot @ Vector((v.x*(.85+(leaf%4)*.1)*scale,v.y*scale,v.z*scale))
@@ -102,7 +108,7 @@ for main, p in enumerate(forms):
                 vs.append(tuple(point))
                 original=rot @ Vector((0,0,1))
                 radial=(off+local+Vector((0,0,.40))).normalized()
-                normal=(original*.65+radial*.35).normalized()
+                normal=(original*.30+radial*.70).normalized()
                 ns.append(tuple(normal))
                 colors.append((rng.uniform(.78,1.0),group_tint,max(0,min(1,(point.z-.7)/4))*uvs[vi][1],1))
             for f in faces:
@@ -117,7 +123,7 @@ for main, p in enumerate(forms):
         for i,val in enumerate(colors):attr.data[i].color=val
         ob=bpy.data.objects.new(me.name,me);canopy.objects.link(ob)
         ob.data.materials.append(leaf_mat)
-        ob['cluster_id']=main*6+sub;ob['leaf_count']=24;ob['normal_blend']=.35
+        ob['cluster_id']=main*6+sub;ob['leaf_count']=12;ob['normal_blend']=.70
         all_clumps.append(ob)
 
 branches=[]
@@ -135,7 +141,13 @@ def branch(name,points,radius):
     branches.append(ob)
 for i,p in enumerate(forms):
     end=Vector(p)
-    start=Vector((.02,.03,1.15+i*.08))
+    level=1.05+i*.045
+    cross=[]
+    for edge in trunk.data.edges:
+        a,b=[trunk.data.vertices[j].co for j in edge.vertices]
+        if (a.z-level)*(b.z-level)<0:
+            cross.append(a.lerp(b,(level-a.z)/(b.z-a.z)))
+    start=sum(cross,Vector())/len(cross) if cross else Vector((0,0,level))
     branch('Primary_Branch_%02d'%i,[start,start.lerp(end,.42)+Vector((0,0,.1)),end],.075 if i<2 else .055)
 
 # Source bark maps remain explicit in Blender and are packed into the source file.
@@ -176,7 +188,7 @@ for obj in [trunk]+branches:
     obj.data.materials.clear();obj.data.materials.append(bark_export)
     for poly in obj.data.polygons:poly.material_index=0
 bpy.ops.export_scene.gltf(filepath=str(OUT/'models/broadleaf_lod0.glb'),use_selection=True,export_format='GLB',export_normals=True,export_tangents=True,export_all_vertex_colors=True)
-report={'triangles':scene['lod0_triangles'],'leaves':720,'clumps':30,'source':'Poly Haven tree_small_02','process':'offline assembly, editable Blender meshes','height':max(v.co.z for o in all_clumps for v in o.data.vertices)}
+report={'triangles':scene['lod0_triangles'],'leaves':360,'clumps':30,'leaf_triangles':16,'source':'Poly Haven tree_small_02','process':'offline assembly, editable Blender meshes','height':max(v.co.z for o in all_clumps for v in o.data.vertices)}
 (OUT/'reports/geometry.json').write_text(json.dumps(report,indent=2))
 print('BENCHMARK_GEOMETRY',report)
 

@@ -1,8 +1,9 @@
 {
   "triangles": 7144,
-  "leaves": 720,
+  "leaves": 360,
   "clumps": 30,
+  "leaf_triangles": 16,
   "source": "Poly Haven tree_small_02",
   "process": "offline assembly, editable Blender meshes",
-  "height": 4.264636039733887
+  "height": 4.328770637512207
 }
