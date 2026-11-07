@@ -27,7 +27,9 @@ for mat in bpy.data.materials:
     if mat.name=='Leaf_PBR_Painted':
         nt=mat.node_tree;bs=nt.nodes.get('Principled BSDF')
         for node in nt.nodes:
-            if node.type=='TEX_IMAGE':node.image=local['leaf_painted_base']
+            if node.type=='TEX_IMAGE':
+                is_normal=any(link.to_node.type=='NORMAL_MAP' for link in node.outputs['Color'].links)
+                node.image=local['leaf_normal_gl'] if is_normal else local['leaf_painted_base']
         normal=next((n for n in nt.nodes if n.type=='NORMAL_MAP'),None)
         if normal is None:
             tx=nt.nodes.new('ShaderNodeTexImage');tx.image=local['leaf_normal_gl']

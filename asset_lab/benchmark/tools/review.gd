@@ -47,6 +47,48 @@ func test_input(v):
  report.input_checks={"F1_F2":true,"original_and_benchmark":true,"light_camera":true,"home":true,"node_count_before":before,"node_count_after":after}
 func run(v):
  v.panel.visible=false
+ assert(v.get_node_or_null("ContactAORoot")==null,"Fixed contact shadow plane returned")
+ if "--sbs-only" in OS.get_cmdline_user_args():
+  await keypress(KEY_C);assert(v.sbs_mode and v.sbs_trees.size()==2 and is_instance_valid(v.tree))
+  for item in [[-1,0,"sbs_benchmark_oblique"],[-1,1,"sbs_benchmark_topdown"],[1,0,"sbs_meshy_broadleaf"],[3,1,"sbs_fab_tree1"]]:
+   v.tree_index=item[0];v.camera_index=item[1];v.refresh();v.apply_camera()
+   await frames(20);await screenshot(item[2])
+  await keypress(KEY_C);assert(not v.sbs_mode and v.sbs_trees.is_empty())
+  print("SBS_CAMERA_PASS: four views, C toggle on/off")
+  get_tree().quit()
+  return
+ if "--shadow-check" in OS.get_cmdline_user_args():
+  v.tree_index=-1;v.style_index=0;v.lod_index=0;v.camera_index=2
+  v.refresh();v.apply_camera()
+  for normal_bias in [0.025,1.0,4.0,8.0]:
+   v.get_node("Sun").shadow_normal_bias=normal_bias
+   await frames(20)
+   await screenshot("shadow_normal_bias_"+str(normal_bias))
+  v.get_node("Sun").shadow_normal_bias=1.0
+  v.get_node("Sun").shadow_bias=4.0
+  await frames(20);await screenshot("shadow_depth_bias_4")
+  v.get_node("Sun").shadow_bias=0.7
+  v.get_node("Sun").shadow_normal_bias=0.025
+  v.get_node("Sun").light_angular_distance=0.0
+  await frames(20);await screenshot("leaf_diag_hard_shadow")
+  v.get_node("Sun").light_angular_distance=0.30
+  RenderingServer.directional_soft_shadow_filter_set_quality(RenderingServer.SHADOW_QUALITY_SOFT_ULTRA)
+  await frames(20);await screenshot("leaf_diag_ultra_shadow")
+  v.get_node("Sun").shadow_enabled=false
+  await frames(20);await screenshot("leaf_diag_no_shadows")
+  v.get_node("WorldEnvironment").environment.ssao_enabled=false
+  await frames(20);await screenshot("leaf_diag_no_shadows_no_ssao")
+  get_tree().quit()
+  return
+ if "--quick" in OS.get_cmdline_user_args():
+  for style in 3:
+   v.style_index=style;v.refresh()
+   for camera in 2:
+    v.camera_index=camera;v.apply_camera()
+    await frames(20)
+    await screenshot("canopy_refined_style%d_camera%d"%[style,camera])
+  get_tree().quit()
+  return
  await test_input(v)
  DirAccess.make_dir_recursive_absolute("res://asset_lab/benchmark/captures")
  report.reference_combinations=0
@@ -62,6 +104,7 @@ func run(v):
  for lod in 3:
   v.lod_index=lod;v.refresh()
   report.triangles.append(measure(v.tree))
+  assert(v.lod_option.get_item_text(lod).contains(str(report.triangles[lod])),"Stale LOD labels")
  for i in 3:assert(report.triangles[i]>0 and report.triangles[i]<=[8000,4000,1500][i])
  v.lod_index=0
  for style in 3:
@@ -118,6 +161,8 @@ func run(v):
   report.lod_hysteresis.append([pair[0],v.lod_index])
  v.auto_lod=false;v.lod_index=0;v.refresh();v.apply_camera()
  var rid=get_viewport().get_viewport_rid()
+ DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_DISABLED)
+ Engine.max_fps=0
  RenderingServer.viewport_set_measure_render_time(rid,true)
  await frames(60)
  var wall=[];var gpu=[];var last=Time.get_ticks_usec()
@@ -128,6 +173,12 @@ func run(v):
   gpu.append(RenderingServer.viewport_get_measured_render_time_gpu(rid))
  wall.sort();gpu.sort()
  report.performance={"samples":180,"wall_p95_ms":wall[170],"gpu_p95_ms":gpu[170],"resolution":str(get_viewport().get_visible_rect().size),"note":"Single tree only; uncapped render, no screenshot readbacks in sampling loop."}
+ # Capture side-by-side 3-mode comparisons for benchmark and reference trees
+ v.sbs_mode=true
+ for item in [[-1,0,"sbs_benchmark_oblique"],[-1,1,"sbs_benchmark_topdown"],[1,0,"sbs_meshy_broadleaf"],[3,1,"sbs_fab_tree1"]]:
+  v.tree_index=item[0];v.camera_index=item[1];v.refresh();v.apply_camera()
+  await frames(15);await screenshot(item[2])
+ v.sbs_mode=false;v.tree_index=-1;v.camera_index=0;v.refresh();v.apply_camera()
  var file=FileAccess.open("res://asset_lab/benchmark/reports/validation.json",FileAccess.WRITE)
  file.store_string(JSON.stringify(report,"\t"));file.close()
  print("BENCHMARK_REVIEW_PASS ",JSON.stringify(report.performance))

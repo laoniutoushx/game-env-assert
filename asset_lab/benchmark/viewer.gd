@@ -7,6 +7,7 @@ const CAMERAS=["斜视整体","塔防俯视","叶片近景"]
 const LIGHT_PATHS=["res://asset_lab/benchmark/lighting/afternoon.tres","res://asset_lab/benchmark/lighting/neutral.tres","res://asset_lab/benchmark/lighting/overcast.tres"]
 @export var camera_positions:Array[Vector3]=[Vector3(6,4.5,8),Vector3(0,8,7),Vector3(2.3,3.6,4.0)]
 @export var camera_targets:Array[Vector3]=[Vector3(0,2.05,0),Vector3(0,2.0,0),Vector3(0,3.0,0)]
+@export var comparison_camera_positions:Array[Vector3]=[Vector3(0,6.8,16),Vector3(0,15,14),Vector3(0,6.8,16)]
 var tree_index=-1
 var style_index=1
 var light_index=0
@@ -47,10 +48,8 @@ func _ready():
  ground.material.roughness=0.95
  ground.size=Vector2(200,200)
  $Ground.mesh=ground
- $Ground.position=Vector3(0,-0.03,0)
+ $Ground.position=Vector3.ZERO
  get_viewport().msaa_3d=Viewport.MSAA_4X
- $Sun.directional_shadow_max_distance=25
- $Sun.light_angular_distance=0.45
  build_ui()
  apply_camera()
  apply_lighting()
@@ -79,12 +78,25 @@ func build_ui():
  styles_option=option(box,STYLES,1,func(i):style_index=i;refresh())
  lights_option=option(box,LIGHTS,0,func(i):light_index=i;apply_lighting())
  cameras_option=option(box,CAMERAS,0,func(i):camera_index=i;apply_camera())
- lod_option=option(box,["LOD0 6690 tris","LOD1 3472 tris","LOD2 875 tris","Auto LOD 14m / 28m"],0,func(i):auto_lod=i==3;if not auto_lod:lod_index=i;refresh())
+ var lod_labels=[]
+ for i in 3:
+  var model=load("res://asset_lab/benchmark/models/broadleaf_lod%d.glb"%i).instantiate()
+  lod_labels.append("LOD%d %d tris"%[i,count_triangles(model)])
+  model.free()
+ lod_labels.append("Auto LOD 14m / 28m")
+ lod_option=option(box,lod_labels,0,func(i):auto_lod=i==3;if not auto_lod:lod_index=i;refresh())
  for item in [["轻风（F5）",func(on):wind=on;set_wind(tree);for t in sbs_trees:set_wind(t)],["灰模检查（G）",func(on):gray=on;refresh()],["1/4宽高检查（F8）",func(on):quarter=on;get_viewport().scaling_3d_scale=0.25 if on else 1.0],["三风格同屏对比（C）",func(on):sbs_mode=on;refresh();apply_camera()]]:
   var check=CheckButton.new();check.focus_mode=Control.FOCUS_NONE;check.text=item[0];check.toggled.connect(item[1]);box.add_child(check);checks.append(check)
  var help=Label.new()
  help.text="1–5 原树 / B 新标杆 / F1–F3 风格 / C 同屏三风格\n右键+WASD，Q/E升降，Shift快，Ctrl慢\nL 换光 / Tab 换机位 / Home 初始视角"
  box.add_child(help)
+
+func count_triangles(n:Node)->int:
+ var count=0
+ if n is MeshInstance3D:
+  for i in n.mesh.get_surface_count():count+=n.mesh.surface_get_array_index_len(i)/3
+ for c in n.get_children():count+=count_triangles(c)
+ return count
 
 func refresh():
  if is_instance_valid(tree):
@@ -140,8 +152,7 @@ func apply_lighting():
  lights_option.selected=light_index
 
 func apply_camera():
- var sbs_pos=[Vector3(0,4.8,10.8),Vector3(0,10.8,9.2),Vector3(0,3.8,7.2)]
- $Camera3D.position=sbs_pos[camera_index] if sbs_mode else camera_positions[camera_index]
+ $Camera3D.position=comparison_camera_positions[camera_index] if sbs_mode else camera_positions[camera_index]
  $Camera3D.look_at(camera_targets[camera_index])
  cameras_option.selected=camera_index
  if $Camera3D.has_method("set_reset_pose"):$Camera3D.set_reset_pose()

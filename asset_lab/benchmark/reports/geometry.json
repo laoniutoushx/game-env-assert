@@ -1,9 +1,15 @@
 {
-  "triangles": 7144,
-  "leaves": 360,
+  "leaves": 660,
   "clumps": 30,
-  "leaf_triangles": 16,
-  "source": "Poly Haven tree_small_02",
-  "process": "offline assembly, editable Blender meshes",
-  "height": 4.328770637512207
+  "leaf_triangles": 10,
+  "triangles": 7824,
+  "ao_method": "24 actual BVH visibility rays per leaf; no height-based AO",
+  "ao_min": 0.0,
+  "ao_mean": 0.21035353535353538,
+  "ao_max": 1.0,
+  "process": "offline editable Blender assembly",
+  "root_closed": true,
+  "height": 3.7145581245422363,
+  "source_scenes": 2,
+  "packed_textures": 6
 }

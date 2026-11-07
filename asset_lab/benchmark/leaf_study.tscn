@@ -31,7 +31,7 @@ rotation_degrees = Vector3(-42,-35,0)
 light_color = Color(1,0.96,0.87,1)
 light_energy = 1.2
 shadow_enabled = true
-light_angular_distance = 0.5
+light_angular_distance = 0.0
 directional_shadow_max_distance = 20.0
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Env")
@@ -41,4 +41,3 @@ fov = 35.0
 current = true
 attributes = SubResource("Attr")
 script = ExtResource("2")
-

@@ -3,8 +3,8 @@
 		"F1_F2": true,
 		"home": true,
 		"light_camera": true,
-		"node_count_after": 123.0,
-		"node_count_before": 123.0,
+		"node_count_after": 131.0,
+		"node_count_before": 131.0,
 		"original_and_benchmark": true
 	},
 	"lod_hysteresis": [
@@ -39,11 +39,11 @@
 	],
 	"motion_frames": 240,
 	"performance": {
-		"gpu_p95_ms": 2.81399989128113,
+		"gpu_p95_ms": 2.30800008773804,
 		"note": "Single tree only; uncapped render, no screenshot readbacks in sampling loop.",
 		"resolution": "(2560.0, 1440.0)",
 		"samples": 180,
-		"wall_p95_ms": 2.8
+		"wall_p95_ms": 2.387
 	},
 	"reference_combinations": 15,
 	"renderer": "Forward+ Vulkan",
@@ -95,11 +95,15 @@
 		"orbit_true_040",
 		"orbit_true_060",
 		"orbit_true_080",
-		"orbit_true_100"
+		"orbit_true_100",
+		"sbs_benchmark_oblique",
+		"sbs_benchmark_topdown",
+		"sbs_meshy_broadleaf",
+		"sbs_fab_tree1"
 	],
 	"triangles": [
-		7144,
-		3778,
-		1010
+		7824,
+		3931,
+		872
 	]
 }

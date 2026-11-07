@@ -35,7 +35,11 @@ mesh = SubResource("Plane")
 transform = Transform3D(0.70710677, 0.4055798, -0.579228, 0, 0.81915206, 0.57357645, 0.70710677, -0.4055798, 0.579228, 0, 0, 0)
 light_energy = 1.2
 shadow_enabled = true
-directional_shadow_max_distance = 20.0
+light_angular_distance = 0.0
+shadow_bias = 0.7
+shadow_normal_bias = 0.025
+shadow_blur = 1.0
+directional_shadow_max_distance = 25.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1258996659]
 environment = SubResource("Env")

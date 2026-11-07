@@ -1,11 +1,11 @@
 {
-  "leaves": 34,
+  "leaves": 44,
   "clumps": 2,
-  "leaf_triangles": 12,
-  "triangles": 450,
+  "leaf_triangles": 10,
+  "triangles": 482,
   "ao_method": "24 actual BVH visibility rays per leaf; no height-based AO",
-  "ao_min": 0.08333333333333333,
-  "ao_mean": 0.7120098039215685,
-  "ao_max": 1.0,
+  "ao_min": 0.0,
+  "ao_mean": 0.49526515151515155,
+  "ao_max": 0.9583333333333334,
   "process": "offline editable Blender assembly"
 }
