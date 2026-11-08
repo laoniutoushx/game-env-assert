@@ -1,8 +1,0 @@
-{
-  "internal_scale": 1.0,
-  "cut": "fog,ssil,gi,pollen,probe",
-  "probe_resolution": 128,
-  "ssr_steps": 24,
-  "new_meshy_credits": 0,
-  "target_p95_ms": 33.3
-}

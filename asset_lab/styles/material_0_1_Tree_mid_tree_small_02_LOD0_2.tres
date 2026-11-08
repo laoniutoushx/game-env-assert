@@ -1,9 +1,9 @@
 [gd_resource type="ShaderMaterial" format=3]
 
 [ext_resource type="Shader" path="res://asset_lab/styles/stylized.gdshader" id="1_bnjw6"]
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_trunk_base.jpg" id="2_6bsk1"]
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_trunk_normal.jpg" id="3_a88t6"]
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_trunk_orm.jpg" id="4_723pj"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_trunk_base.jpg" id="2_6bsk1"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_trunk_normal.jpg" id="3_a88t6"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_trunk_orm.jpg" id="4_723pj"]
 
 [resource]
 render_priority = 0
@@ -17,19 +17,20 @@ shader_parameter/has_orm = true
 shader_parameter/cutout = false
 shader_parameter/is_combined_mesh = false
 shader_parameter/style = 1
-shader_parameter/foliage_lit_color = Color(0.70980394, 0.827451, 0.3529412, 1)
-shader_parameter/foliage_mid_color = Color(0.36862746, 0.6039216, 0.2627451, 1)
-shader_parameter/foliage_shadow_color = Color(0.18431373, 0.3529412, 0.22745098, 1)
-shader_parameter/foliage_rim_color = Color(0.78039217, 0.9098039, 0.4509804, 1)
+shader_parameter/foliage_core_color = Color(0.09411765, 0.17254902, 0.078431375, 1)
+shader_parameter/foliage_shadow_color = Color(0.18431373, 0.3254902, 0.11372549, 1)
+shader_parameter/foliage_mid_color = Color(0.29411766, 0.47058824, 0.13725491, 1)
+shader_parameter/foliage_lit_color = Color(0.5294118, 0.65882355, 0.14509805, 1)
+shader_parameter/foliage_rim_color = Color(0.8, 0.89411765, 0.30588236, 1)
 shader_parameter/bark_lit_color = Color(0.47843137, 0.3647059, 0.27450982, 1)
 shader_parameter/bark_shadow_color = Color(0.19607843, 0.17254902, 0.20784314, 1)
 shader_parameter/normal_sphere_blend = 0.78
 shader_parameter/normal_cluster_blend = 0.46
 shader_parameter/cluster_scale = 0.8609809112548827
-shader_parameter/canopy_bottom_darken = 0.32
-shader_parameter/max_saturation = 0.62
-shader_parameter/texture_detail_weight = 0.38
-shader_parameter/rim_strength = 0.55
+shader_parameter/canopy_bottom_darken = 0.3
+shader_parameter/max_saturation = 0.64
+shader_parameter/texture_detail_weight = 0.4
+shader_parameter/rim_strength = 0.36
 shader_parameter/instance_variation = null
 shader_parameter/wind_strength = null
 shader_parameter/tree_transform = Projection(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)

@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://b0t284dc7oyem"]
+
 [ext_resource type="Script" path="res://render_v9_scene.gd" id="1"]
-[node name="RenderV9Candidate" type="Node3D"]
+
+[node name="RenderV9Candidate" type="Node3D" unique_id=116694665]
 script = ExtResource("1")

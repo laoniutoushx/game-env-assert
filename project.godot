@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="古迹环境场景验收"
-run/main_scene="res://render_v4_live.tscn"
+config/name="古迹环境场景验收 (Render V10)"
+run/main_scene="res://render_v10.tscn"
 config/features=PackedStringArray("4.7")
 
 [display]
@@ -23,10 +23,6 @@ window/stretch/mode="viewport"
 [dotnet]
 
 project/assembly_name="古迹环境场景验收"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/afternoon_bake/plugin.cfg", "res://addons/afternoon_v2_bake/plugin.cfg", "res://addons/model_v3_bake/plugin.cfg", "res://addons/render_v4_bake/plugin.cfg")
 
 [filesystem]
 

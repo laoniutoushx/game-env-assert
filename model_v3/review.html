@@ -1,9 +1,0 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>遗迹场景 V3 实机复核</title>
-<style>body{background:#151919;color:#dde5e0;font:16px system-ui;max-width:1500px;margin:28px auto;padding:0 20px}button{padding:10px;margin:6px;cursor:pointer}img{width:100%;display:block}p{line-height:1.7}.note{color:#e8c185}section{margin:26px 0}a{color:#a7d9ef}</style>
-<h1>实机复核：模型改进 ≠ 最终画质通过</h1>
-<p class="note">未宣称达到概念图 90%。新树暂缓采用，光照实验尚未通过最终视觉、性能和移动验收。项目默认场景尚未切换。</p>
-<section><h2>同视角体积光对照</h2><p>固定模型、曝光和相机，关闭景深。旧方案人为塑造雾密度光柱；新实验使用连续空气介质和引擎阴影。关闭阴影同时影响地表，不能用整图差异冒充纯体积光贡献。</p>
-<button onclick="show('control')">原预塑光柱</button><button onclick="show('physical')">连续空气 + 阴影</button><button onclick="show('unshadowed')">关闭方向光阴影</button><p id="label">连续空气 + 阴影</p><img id="compare" src="captures/light_physical_top.png"></section>
-<section><h2>MODEL V3 移动视角</h2><p>40–70°，完整转向；这是模型候选的移动记录，不是光照实验的移动验收。原生 2K 两轮 600 帧 P95：30.013 / 32.036 ms。</p><button onclick="playing=!playing">播放 / 暂停</button><input id="frame" type="range" min="0" max="47" value="0" oninput="setFrame(+this.value)"><img id="motion" src="captures/clear_motion/000.png"></section>
-<p><a href="REVIEW.md">完整记录与限制</a> · <a href="assets/geometry_catalog.json">模型清单</a> · <a href="captures/smoke.json">相机功能验证</a></p>
-<script>let playing=false,n=0;function show(x){document.querySelector('#compare').src='captures/light_'+x+'_top.png';document.querySelector('#label').textContent={control:'原预塑光柱',physical:'连续空气 + 阴影',unshadowed:'关闭方向光阴影'}[x]}function setFrame(i){n=i;document.querySelector('#frame').value=n;document.querySelector('#motion').src='captures/clear_motion/'+String(n).padStart(3,'0')+'.png'}setInterval(()=>{if(playing)setFrame((n+1)%48)},160);</script></html>

@@ -1,0 +1,29 @@
+{
+  "default_main_scene": "res://render_v10.tscn",
+  "draw_calls": 742.0,
+  "frame_p50_ms": 16.671,
+  "frame_p95_ms": 19.966,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "lod_hysteresis_sequence": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2
+  ],
+  "plants_lod_count": 168,
+  "primitives": 5175395.0,
+  "snapshots": [
+    "res://render_v10/captures/style0_top.png",
+    "res://render_v10/captures/style0_side.png",
+    "res://render_v10/captures/style1_top.png",
+    "res://render_v10/captures/style1_side.png",
+    "res://render_v10/captures/style1_close.png",
+    "res://render_v10/captures/style2_top.png",
+    "res://render_v10/captures/style2_side.png"
+  ],
+  "trees_count": 23,
+  "version": "RENDER V10 baseline"
+}

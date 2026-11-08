@@ -39,11 +39,11 @@
 	],
 	"motion_frames": 240,
 	"performance": {
-		"gpu_p95_ms": 2.30800008773804,
+		"gpu_p95_ms": 2.77800011634827,
 		"note": "Single tree only; uncapped render, no screenshot readbacks in sampling loop.",
 		"resolution": "(2560.0, 1440.0)",
 		"samples": 180,
-		"wall_p95_ms": 2.387
+		"wall_p95_ms": 3.363
 	},
 	"reference_combinations": 15,
 	"renderer": "Forward+ Vulkan",
@@ -102,8 +102,8 @@
 		"sbs_fab_tree1"
 	],
 	"triangles": [
-		7824,
-		3931,
-		872
+		7953,
+		3991,
+		882
 	]
 }

@@ -1,5 +1,5 @@
 [gd_scene load_steps=5 format=3]
-[ext_resource type="PackedScene" path="res://atmosphere/assets/tree_mid_geometry.glb" id="1"]
+[ext_resource type="PackedScene" path="res://asset_lab/reference_polyhaven/tree_mid_geometry.glb" id="1"]
 [ext_resource type="Material" path="res://asset_lab/materials/branch.tres" id="2"]
 [ext_resource type="Material" path="res://asset_lab/materials/leaves.tres" id="3"]
 [ext_resource type="Material" path="res://asset_lab/materials/trunk.tres" id="4"]

@@ -1,8 +1,8 @@
 [gd_resource type="ORMMaterial3D" format=3]
 
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_leaves_base.png" id="1_dstda"]
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_leaves_normal.jpg" id="2_fhq2k"]
-[ext_resource type="Texture2D" path="res://atmosphere/textures/tree_leaves_orm.jpg" id="3_qvf7y"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_leaves_base.png" id="1_dstda"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_leaves_normal.jpg" id="2_fhq2k"]
+[ext_resource type="Texture2D" path="res://asset_lab/reference_polyhaven/tree_leaves_orm.jpg" id="3_qvf7y"]
 
 [resource]
 resource_name = "FoliagePBR_leaves"

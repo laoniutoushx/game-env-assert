@@ -59,14 +59,22 @@ midrib = mathnode('POWER', midrib, 2.5)
 veins = mathnode('MAXIMUM', veins, midrib)
 
 noise = nt.nodes.new('ShaderNodeTexNoise')
-noise.inputs['Scale'].default_value = 14.0
-noise.inputs['Detail'].default_value = 3.0
+noise.inputs['Scale'].default_value = 9.5
+noise.inputs['Detail'].default_value = 4.0
+noise.inputs['Roughness'].default_value = 0.65
 nt.links.new(coord.outputs['UV'], noise.inputs['Vector'])
 
-edge_boost = mathnode('MULTIPLY', x, 0.35)
-factor = mathnode('ADD', mathnode('MULTIPLY', noise.outputs['Fac'], 0.28), mathnode('MULTIPLY', y_grad, 0.48))
+voronoi = nt.nodes.new('ShaderNodeTexVoronoi')
+voronoi.inputs['Scale'].default_value = 18.0
+voronoi.inputs['Randomness'].default_value = 0.85
+nt.links.new(noise.outputs['Color'], voronoi.inputs['Vector'])
+
+edge_boost = mathnode('MULTIPLY', x, 0.32)
+brush_dabs = mathnode('SUBTRACT', 1.0, mathnode('MULTIPLY', voronoi.outputs['Distance'], 0.35))
+factor = mathnode('ADD', mathnode('MULTIPLY', noise.outputs['Fac'], 0.22), mathnode('MULTIPLY', y_grad, 0.46))
+factor = mathnode('ADD', factor, mathnode('MULTIPLY', brush_dabs, 0.16))
 factor = mathnode('ADD', factor, edge_boost)
-factor = mathnode('ADD', factor, mathnode('MULTIPLY', veins, 0.18))
+factor = mathnode('ADD', factor, mathnode('MULTIPLY', veins, 0.14))
 
 ramp = nt.nodes.new('ShaderNodeValToRGB')
 nt.links.new(factor, ramp.inputs[0])
@@ -79,11 +87,12 @@ bake_scene.cycles.samples = 1
 bake_scene.render.bake.margin = 16
 
 # Multi-stop Concept Sheet palettes (sRGB converted to linear in Cycles Ramp)
-ramp.color_ramp.elements.new(0.50)
+ramp.color_ramp.elements.new(0.38)
+ramp.color_ramp.elements.new(0.72)
 textures = {}
 palettes = [
-    ('natural', [(0.0, (0.035, 0.095, 0.015, 1)), (0.52, (0.095, 0.215, 0.032, 1)), (1.0, (0.240, 0.380, 0.055, 1))]),
-    ('painted', [(0.0, (0.048, 0.135, 0.024, 1)), (0.50, (0.135, 0.295, 0.045, 1)), (1.0, (0.360, 0.520, 0.082, 1))]),
+    ('natural', [(0.0, (0.016, 0.048, 0.010, 1)), (0.38, (0.042, 0.108, 0.016, 1)), (0.72, (0.092, 0.188, 0.026, 1)), (1.0, (0.165, 0.275, 0.038, 1))]),
+    ('painted', [(0.0, (0.022, 0.095, 0.044, 1)), (0.38, (0.068, 0.185, 0.038, 1)), (0.72, (0.165, 0.315, 0.048, 1)), (1.0, (0.310, 0.445, 0.062, 1))]),
 ]
 for style, stops in palettes:
     for elem, (pos, col) in zip(ramp.color_ramp.elements, stops):
@@ -117,7 +126,7 @@ bake_scene['instructions'] = 'Edit palette ramp / vein math, select target image
 bpy.context.window.scene = source_scene
 for part in ('trunk',):
     for kind in ('base', 'normal', 'orm'):
-        img = bpy.data.images.load(str(ROOT / f'atmosphere/textures/tree_{part}_{kind}.jpg'), check_existing=False)
+        img = bpy.data.images.load(str(ROOT / f'asset_lab/reference_polyhaven/tree_{part}_{kind}.jpg'), check_existing=False)
         if kind != 'base':
             img.colorspace_settings.name = 'Non-Color'
         _ = img.pixels[0]
